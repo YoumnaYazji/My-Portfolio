@@ -7,26 +7,38 @@ import {motion} from 'framer-motion'
 const services = [
     {
         num:'01',
-        title :'Territorial development planning and design',
-        description:'The land development field includes a wide range of activities, from the construction of small residential projects to the development of large commercial and industrial facilities .',
-        href:"",
+        title :'Front-End Web Developer ',
+        description:'I specialize in creating dynamic and responsive user interfaces using React.js. With a strong foundation in HTML, CSS, and JavaScript, with a focus on performance.'
     },
     {
         num:'02',
-        title :'3D modelling using high tech programmes',
-        description:'3D modelling  using high tech programmes enables highly detailed models of construction and infrastructure projects , and enable the client to Vision the project to better understand it.',
+        title :'Backend Development',
+        description:'I specialize in building robust server-side applications using PHP and frameworks like Laravel. My focus is on creating scalable, efficient, and maintainable code.',
         href:"",
     },
     {
         num:'03',
-        title :'Designing highrise structure systems',
-        description:'Highrise building structure systems involves principles and expertise to design, analyze, and ensure the safety and stability of the building\'s structural systems.',
+        title :'Real-Time Solutions',
+        description:'Using Socket.io, I develop real-time applications that enhance interaction and engagement, making every user experience seamless and dynamic.',
         href:"",
     },
     {
         num:'04',
-        title :'Design',
-        description:'Planning, analysis, design, construction, and maintenance of various infrastructure projects.',
+        title :'Database Management Systems',
+        description:'I work with both relational databases (MySQL) and NoSQL databases (MongoDB), ensuring optimal data storage and retrieval strategies.',
+        href:"",
+    },
+    
+    {
+        num:'05',
+        title :'Technical Support Services',
+        description:'I provide comprehensive assistance to individuals and businesses facing challenges with their software.I am dedicated to resolving technical issues efficiently.',
+        href:"",
+    },
+    {
+        num:'06',
+        title :'Content Management Systems',
+        description:'I specialize in setting up, customizing, and managing WordPress sites to ensure seamless content creation and publication, and I provide user-friendly solutions.',
         href:"",
     },
 
@@ -41,12 +53,12 @@ const Services =() =>{
             }}} className="grid grid-cols-1 md:grid-cols-3 gap-[60px] ">
                {services.map((service,index)=>{
                 return (
-                <div key={index} className="flex-1 flex flex-col justify-center gap-6 group border border-white/20 w-full p-5">
+                <div key={index} className="min-h-[45vh] flex-1 flex flex-col justify-center gap-6 group border border-white/20 w-full p-5">
                 <div className="w-full flex justify-between items-center ">
                     <div className="text-5xl font-extrabold text-outline text-transparent group-hover:text-outline-hover transition-all duration-500">{service.num}</div>
                 
                 </div>
-                <h2 className="text-[28px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500">{service.title}</h2>
+                <h2 className="text-[26px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500">{service.title}</h2>
                 <p className="text-white/60">{service.description}</p>
                 </div>
                 )
