@@ -107,7 +107,7 @@ const skills ={
 const Resume =() =>{
     return(
         <>
-            <div className="px-24 mt-5 mx-auto xs:w-full md:x-full">
+            <div className="px-12 mt-5 xl:w-[90%] mx-auto xs:w-full md:x-full">
                 <Tabs defaultValue='education' className='gap-[60px]'>
                     <TabsList className=' w-full mx-auto xl:mx-0 gap-[60px] md:flex-col md:items-center md:gap-4 lg:flex-row lg:items-start lg:mx-auto xs:flex-col xs:items-center xl:gap-4 xl:mx-0'>
                         <TabsTrigger value='education' className="text-[18px]">Education</TabsTrigger>
@@ -118,12 +118,12 @@ const Resume =() =>{
                     </TabsList>
                     <div className='mt-10 min-h-[70vh] w-full'>
 
-                        <TabsContent value='education' className='w-full'>
+                        <TabsContent value='education' className='w-[80vw]'>
                         <div className='flex flex-col gap-[30px] p-5 xl:text-left'>
                                 <h3 className='text-4xl font-bold'>
                                     {education.title}
                                 </h3>
-                                <p className='text-white/80 mx-auto text-[18px] xl:mx-0'>{education.description}</p>
+                                <p className='text-white/80 py-5 text-[18px]'>{education.description}</p>
                                 <ScrollArea className='h-[400px]'>
                                     <ul className='grid frid-cols-1 lg:grid-cols-2 gap-[30px]'>
                                         {education.items.map((item,index)=>{
@@ -210,7 +210,7 @@ const Resume =() =>{
                                 <h3 className='text-4xl font-bold'>
                                     {about.title}
                                 </h3>
-                                <p className='text-white/60 mx-auto xl:mx-0'>{about.description}</p>
+                                <p className='text-white/60 py-5  text-[18px]'>{about.description}</p>
                                 <ul className="gap-y-6 xl:mx-0 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 ">
                                 {about.info.map((item, index) => (
                                 <li
