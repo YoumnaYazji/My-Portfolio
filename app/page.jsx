@@ -8,6 +8,7 @@ import Stats from "@/components/Stats";
 import { TypeAnimation } from "react-type-animation";
 import Services from "./services/page";
 import Work from "./work/page";
+import Resume from "./resume/page";
 export default function Home() {
   return (
    <>
@@ -58,6 +59,12 @@ export default function Home() {
     <h5 className="text-accent text-center">Visit my projects and keep your feedback</h5>
     <h1 className="text-[66px] text-center">My Projects</h1>
     <Work/>
+    </div>
+    <div className="border-b border-white/20 w-full mt-12"></div>
+   <div className="mt-12">
+    <h5 className="text-accent text-center">+2 Years</h5>
+    <h1 className="text-[66px] text-center">My Resume</h1>
+    <Resume/>
     </div>
    </div>
    </>

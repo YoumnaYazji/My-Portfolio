@@ -1,5 +1,5 @@
 'use client';
-
+import { Button } from '@/components/ui/button';
 import {motion} from 'framer-motion'
 import { useState } from 'react';
 import {Swiper,SwiperSlide} from 'swiper/react'
@@ -10,66 +10,60 @@ import Link from 'next/link';
 import Image from 'next/image';
 import WorkSliderBtns from '@/components/WorkSliderBtns';
 import { Autoplay } from 'swiper/modules';
+
 const projects=[
     {
         num:'01',
-        title:'Sky City Tower',
-        description:'I did the theoretical study for the "sky city tower" as 45 story building with a tube in a tube structure system to minimise internal columns to give The architecture the freedom for where the wall are and this system is very affective at resisting earthquake and wind loads which I consider it in designing this skyscraper',
+        title:'Dolce & Salato',
+        description:'Contributed to the design and development of the Dolce & Salato website. ',
         stack:[
             {
-                name:'Robot structure',
+                name:'React JS',
             },
             {
-                name:'Revit',
+                name:'Redux',
             },
             {
-                name:'AutoCAD',
-            },
-            {
-                name:'Lumion',
-            }, 
-            {
-                name:'Etabs ',
-            },
-            {
-                name:'Safe',
-            },
-            {
-                name:'Sap200',
-            },
-            {
-                name:'Excel',
+                name:'Bootstrap',
             },
             
+            
 
+        ],
+        image:'/dolce.png',
+        architecture:'The project comes out from the need of homs city for new high rise and new hotel because the city has a one luxury hotel , and the project offers luxury apartments starting from 250 square meter apartments to 1000 square meter penthouse with its own elevator and with a view over looking the city  , also the project has shopping complex for retail stores , luxury restaurants with 360 view of the city , indoor and outdoor swimming pools ,gym ,basketball and tennis field ,and 260 space for parking.',
+        structure:'The structure system design needed for this tower is special so that the space can be maximised without using internal columns , so the solution was to use a tube in tube system , using this system we maximised the space inside and we created a very strong structure that resist wind+earthquake louds  , this system is very economic because is cheaper than any structure system and more robust also . ',
+    },
+    {
+        num:'02',
+        title:'Restaurantly',
+        description:'A delivery website for a restaurant where the customer can order online and determine his location using a real map. The website has a Dashboard for managing orders with the ability to view the details of each order individually, and also for managing the meals and foods that are available in the restaurant, displaying them, and the ability to modify them (add, delete, update).',
+        stack:[
+            {
+                name:'React JS',
+            },
+            {
+                name:'Redux',
+            },
+            {
+                name:'Bootstrap',
+            },
+            {
+                name:'Chart JS',
+            }, 
+            {
+                name:'Laravel ',
+            },
+            {
+                name:'MySQL',
+            },
+           
         ],
         image:'/coverSkyTower.jpg',
         architecture:'The project comes out from the need of homs city for new high rise and new hotel because the city has a one luxury hotel , and the project offers luxury apartments starting from 250 square meter apartments to 1000 square meter penthouse with its own elevator and with a view over looking the city  , also the project has shopping complex for retail stores , luxury restaurants with 360 view of the city , indoor and outdoor swimming pools ,gym ,basketball and tennis field ,and 260 space for parking.',
         structure:'The structure system design needed for this tower is special so that the space can be maximised without using internal columns , so the solution was to use a tube in tube system , using this system we maximised the space inside and we created a very strong structure that resist wind+earthquake louds  , this system is very economic because is cheaper than any structure system and more robust also . ',
-        projectImage:[
-            {
-                img:'/1.jpg'
-
-            },
-            {
-                img:'/2.jpg'
-
-            },
-            {
-                img:'/3.jpg'
-
-            },
-            {
-                img:'/4.jpg'
-
-            },
-            {
-                img:'/5.jpg'
-
-            },
-        ]
     },
-
+    
     
     
 ]
@@ -102,6 +96,9 @@ const Work =() =>{
                     </li>
                     ))}
                     </ul>
+                    <Button style={{width:'30%',padding:'10px'}}>
+                     More Info
+                    </Button>
                       <div className='border border-white/20'>
                       </div>
                       <div className='flex items-center gap-4'>
@@ -133,16 +130,16 @@ const Work =() =>{
                 </div>
               </div>
               <div className='w-full xl:w-[50%] '>
-               <Swiper spaceBetween={30} slidesPerView={1} className='xl:h-[520px] mb-12' onSlideChange={handleSlideChange}>
+               <Swiper spaceBetween={30} slidesPerView={1} className='xl:h-[450px] mb-12' onSlideChange={handleSlideChange}>
                 {projects.map((project ,index)=>{
                     return(
                         <SwiperSlide key={index} className='w-full '>
-                           <div className='h-[460px] relative group flex justify-center items-center bg-pink-50/20'>  
+                           <div className='h-[500px] relative group flex justify-center items-center bg-pink-50/20'>  
                             <div className='absolute top-0 bottom-0 w-full h-full bg-black/10 z-10'>
 
                             </div>
-                            <div className='relative w-full h-full'>
-                                <Image src={project.image} fill className='object-cover' alt='' />
+                            <div className='relative w-[700px] h-[500px]'>
+                                <Image src={project.image} fill className='' alt='' />
                             </div>
                            </div>
                         </SwiperSlide>
@@ -155,7 +152,7 @@ const Work =() =>{
               </div>
               
             </div>
-            <div className='mt-10'>
+          {/*  <div className='mt-10'>
                 <h1 className='text-[42px] font-bold leading-none text-white graoup-hover:text-accent transition-all duration-500 capitalize'>Project Description</h1>
                 
                 <div className='inline-block text-white/60 text-3xl mt-10'>
@@ -170,7 +167,7 @@ const Work =() =>{
                 </div>
                 </div>
                 </div>
-            </div>
+            </div>*
             <Swiper modules={[Autoplay]} spaceBetween={30} slidesPerView={1} className='xl:h-[520px] mb-12 mt-14' autoplay={{delay: 5000,disableOnInteraction: false, }} speed={400}  >
                 {project.projectImage.map((projects ,index)=>{
                     return(
@@ -189,6 +186,7 @@ const Work =() =>{
                     )
                 })}
                 </Swiper>
+                */}
             </div> 
             </div>
             

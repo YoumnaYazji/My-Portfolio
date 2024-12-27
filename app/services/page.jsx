@@ -7,12 +7,12 @@ import {motion} from 'framer-motion'
 const services = [
     {
         num:'01',
-        title :'Front-End Web Developer ',
+        title :'Front-end Web Developer ',
         description:'I specialize in creating dynamic and responsive user interfaces using React.js. With a strong foundation in HTML, CSS, and JavaScript, with a focus on performance.'
     },
     {
         num:'02',
-        title :'Backend Development',
+        title :'Back-end Development',
         description:'I specialize in building robust server-side applications using PHP and frameworks like Laravel. My focus is on creating scalable, efficient, and maintainable code.',
         href:"",
     },
