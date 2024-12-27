@@ -12,7 +12,6 @@ import Resume from "./resume/page";
 export default function Home() {
   return (
    <>
-   <div className="container">
    <section className="h-full">
       <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
@@ -62,11 +61,10 @@ export default function Home() {
     </div>
     <div className="border-b border-white/20 w-full mt-12"></div>
    <div className="mt-12">
-    <h5 className="text-accent text-center">+2 Years</h5>
+    <h5 className="text-accent text-center">+2 YEARS OF EXPERIENCE</h5>
     <h1 className="text-[66px] text-center">My Resume</h1>
     <Resume/>
     </div>
-   </div>
    </>
   );
 }

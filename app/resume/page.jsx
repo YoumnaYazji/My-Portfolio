@@ -8,6 +8,7 @@ import { BsTelephone } from "react-icons/bs";
 import { FaRegEnvelope } from "react-icons/fa6";
 import { LiaLanguageSolid } from "react-icons/lia";
 import { SiFreelancer } from "react-icons/si";
+import { FaLink } from "react-icons/fa6";
 
 import { SiTailwindcss,SiNextdotjs} from 'react-icons/si'
 import { Tabs,TabsContent,TabsList,TabsTrigger } from '@/components/ui/tabs'
@@ -31,7 +32,8 @@ const about={
         },
         {
             fieldName:'Experience',
-            fieldValue:'+2 Years',
+            fieldValue:'+ 2 Years',
+            icon:<FaLink/>
         },
         {
             fieldName:'Email',
@@ -105,14 +107,13 @@ const skills ={
 const Resume =() =>{
     return(
         <>
-        <motion.div initial={{opacity:0}} animate={{opacity:1,transition:{delay:2.4,duration:0.4,ease:'easeIn'}}} className='mt-6 min-h-[80vh] flex items-center justify-center py-12 xl:py-0'>
-            <div className="container mx-auto">
+            <div className="px-24 mt-5 mx-auto xs:w-full md:x-full">
                 <Tabs defaultValue='education' className='gap-[60px]'>
                     <TabsList className=' w-full mx-auto xl:mx-0 gap-[60px] md:flex-col md:items-center md:gap-4 lg:flex-row lg:items-start lg:mx-auto xs:flex-col xs:items-center xl:gap-4 xl:mx-0'>
-                        <TabsTrigger value='education'>Education</TabsTrigger>
-                        <TabsTrigger value='experience'>Experience</TabsTrigger>
-                        <TabsTrigger value='skills'>Skills</TabsTrigger>
-                        <TabsTrigger value='about'>About Me</TabsTrigger>
+                        <TabsTrigger value='education' className="text-[18px]">Education</TabsTrigger>
+                        <TabsTrigger value='experience'className="text-[18px]" >Experience</TabsTrigger>
+                        <TabsTrigger value='skills' className="text-[18px]">Skills</TabsTrigger>
+                        <TabsTrigger value='about' className="text-[18px]">About Me</TabsTrigger>
 
                     </TabsList>
                     <div className='mt-10 min-h-[70vh] w-full'>
@@ -204,17 +205,21 @@ const Resume =() =>{
                                     <p className='text-2xl mt-10'>+7 another Program</p>
                              </div>
                         </TabsContent>
-                        <TabsContent value='about' className='w-full xl:text-left'>
-                             <div className='flex flex-col gap-[30px]'>
-                                <h3 className='text-4xl font-bold'>{about.title}</h3>
+                        <TabsContent value='about' className='w-full'>
+                        <div className='flex flex-col gap-[30px] p-5 xl:text-left'>
+                                <h3 className='text-4xl font-bold'>
+                                    {about.title}
+                                </h3>
                                 <p className='text-white/60 mx-auto xl:mx-0'>{about.description}</p>
-                                <ul className="gap-y-6 mx-auto xl:mx-0 grid grid-cols-1 md:grid-cols-4 gap-4 xl:gap-y-0 ">
+                                <ul className="gap-y-6 xl:mx-0 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 ">
                                 {about.info.map((item, index) => (
                                 <li
                                 key={index}
-                                className={`bg-[#232329] h-[80px] w-full px-3 rounded-xl flex items-center justify-center xl:justify-start gap-4 ${
-                                  index >= 4 ? "mt-6" : ""
-                                }`}
+                                className={`bg-[#232329] text-[18px] h-[80px] w-full px-8 rounded-xl flex items-center justify-center xl:justify-start gap-4 ${
+                                  index >= 0 ? "mt-6" : ""
+                                }
+                              
+                                `}
                               >
                                 <div className="flex items-center gap-2">
                                   <span className="text-accent text-[18px]">{item.icon}</span> 
@@ -230,7 +235,6 @@ const Resume =() =>{
                     </div>
                 </Tabs>
             </div> 
-        </motion.div>
         </>
     )
 }
