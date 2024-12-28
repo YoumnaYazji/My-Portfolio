@@ -16,7 +16,7 @@ import { motion } from 'framer-motion';
 
 const about={ 
     title:'About me',
-    description:'Dedicated and experienced Civil Engineer with extensive knowledge of engineering principles, theories, specifications, a standards. Proven track record of finishing complex projects underbudget and ahead of schedule. Substantial knowledge and experience with environmentally sustainable construction.',
+    description:'I am a Web Developer specializing in front end development, aiming towards a better understanding and development my knowledge at this field. Experienced with development cycle for dynamic web projects.',
     info :[
         {
             fieldName:'Name',
@@ -54,12 +54,12 @@ const about={
 const experience ={
     icon:'',
     title:'My Experience',
-    description:'Highly skilled and dedicated civil engineer with 1 years of experience in designing, constructing, and managing various infrastructure projects.',
+    description:'Frontend Software Engineer with two years of experience in developing and implementing user-friendly web interfaces for projects [web applications, e-commerce platforms, interactive dashboards]. Proven ability to collaborate effectively within development teams to deliver high-quality, performant, and accessible frontend solutions.',
     items:[
         {
-        company:'KSA Inc.',
-        position:'Civil Engineer',
-        duration :'2024- Present',
+        company:'Freelancer.',
+        position:'Software Engineer & Frontend developer',
+        duration :'2023- Present',
     },
 ]
 }
@@ -80,7 +80,7 @@ const education ={
 const skills ={
     icon:'',
     title:'My Skills',
-    description:'Proficient in managing large-scale projects, collaborating with multidisciplinary teams, and balancing technical requirements with economic and environmental considerations. Committed to creating safe, efficient, and sustainable solutions that enhance quality of life for communities worldwide.',
+    description:'Proficient in managing complex software projects, collaborating effectively with cross-functional teams (including designers, backend developers, and product managers), and balancing technical feasibility with user experience and business requirements. Committed to building robust, user-friendly, and maintainable frontend solutions that enhance user engagement and satisfaction.',
     skillList:[
         {   
         icon:<FaHtml5/>,
@@ -166,20 +166,20 @@ const Resume =() =>{
             <div className="px-12 mt-5 xl:w-[90%] mx-auto xs:w-full md:x-full">
                 <Tabs defaultValue='education' className='gap-[60px]'>
                     <TabsList className=' w-full mx-auto xl:mx-0 gap-[60px] md:flex-col md:items-center md:gap-4 lg:flex-row lg:items-start lg:mx-auto xs:flex-col xs:items-center xl:gap-4 xl:mx-0 xs:px-5'>
-                        <TabsTrigger value='education' className="text-[18px] md:text-[22px]">Education</TabsTrigger>
-                        <TabsTrigger value='experience'className="text-[18px] md:text-[22px]" >Experience</TabsTrigger>
-                        <TabsTrigger value='skills' className="text-[18px] md:text-[22px]">Skills</TabsTrigger>
-                        <TabsTrigger value='about' className="text-[18px] md:text-[22px]">About Me</TabsTrigger>
+                        <TabsTrigger value='education' className="xl:text-[18px] md:text-[22px]">Education</TabsTrigger>
+                        <TabsTrigger value='experience'className="xl:text-[18px] md:text-[22px]" >Experience</TabsTrigger>
+                        <TabsTrigger value='skills' className="xl:text-[18px] md:text-[22px]">Skills</TabsTrigger>
+                        <TabsTrigger value='about' className="xl:text-[18px] md:text-[22px]">About Me</TabsTrigger>
 
                     </TabsList>
                     <div className='mt-10 min-h-[70vh] w-full'>
 
                     <TabsContent value='education' className='w-full h-full'>
                     <div className='flex flex-col gap-[30px] text-center xl:text-left'>
-                    <h3 className='text-4xl font-bold'>
+                    <h3 className='xl:text-4xl md:text-xl xl:px-5 font-bold'>
                                     {education.title}
                                 </h3>
-                                <p className='text-white/60 text-[18px] md:text-[22px] xs:px-5'>
+                                <p className='text-white/60 xl:text-[18px] md:text-[22px] xs:px-5'>
                                 {education.description}</p>
                                 <ScrollArea className='h-[400px]'>
                                     <ul className='grid frid-cols-1 lg:grid-cols-2 gap-[30px] xs:px-5 '>
@@ -202,29 +202,27 @@ const Resume =() =>{
                                 </ScrollArea>
                              </div>
                         </TabsContent>
-                        <TabsContent value='experience' className='w-full'>
-                             <div className='text-center xl:text-left'>
-                                <h3 className='text-4xl font-bold'>
-                                    {experience.title}
+                        <TabsContent value='experience' className='w-full h-full'>  
+                        <div className='flex flex-col gap-[30px] text-center xl:text-left'>
+                        <h3 className='xl:text-4xl md:text-xl xl:px-5 font-bold'>
+                        {experience.title}
                                 </h3>
-                                <p className='mt-6 text-white/80 mx-auto xl:mx-0'>{experience.description}</p>
-                                <ScrollArea className='h-[400px] mt-6'>
-                                    <ul className='grid frid-cols-1 lg:grid-cols-2 gap-[30px]'>
-                                        {experience.items.map((item,index)=>{
+                                <p className='text-white/60 xl:text-[18px] md:text-[22px] xs:px-5'>
+                                {experience.description}</p>
+                                <ScrollArea className='h-[400px]'>
+                                <ul className='grid frid-cols-1 lg:grid-cols-2 gap-[30px] xs:px-5 '>
+                                {experience.items.map((item,index)=>{
                                             return(
-                                                <li key={index} className='bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1'>
+                                                <li key={index} className='bg-[#232329] h-[184px] xl:h-[200px] lg:h-[200px] md:-[200px] sm:h-[200px] xs:h-[300px] md:text-xl sm:text-xl xs:text-xl py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1'>
                                                     <span  className='text-accent'>
                                                         {item.duration}
                                                     </span>
-                                                    <h3 className='xl:text-xl md:text-xl max-w-[260px] min-h-[60px] text-center lg:text-left sm:text-base xs:text-base xs:mb-2'>
+                                                    <h3 className='text-2xl mt-2 text-center lg:text-left md:text-xl sm:text-xl xs:text-xl xs:mb-2'>
                                                         {item.position}
                                                     </h3>
-                                                    <div className='flex items-center gap-3'>
-                                                        <span className='w-[6px] h-[6px] rounded-full bg-accent'></span>
-                                                        <p className='text-white/60 sm:text-base xs:text-base xs:mb-2'>
+                                                        <p className='text-white/60 text-xl mt-2 sm:text-xl xs:text-xl xs:mb-2'>
                                                             {item.company}
                                                         </p>
-                                                    </div>
                                                 </li>
                                             )
                                         })}
@@ -234,11 +232,11 @@ const Resume =() =>{
                         </TabsContent>
                         <TabsContent value='skills' className='w-full h-full'>
                         <div className='flex flex-col gap-[30px] text-center xl:text-left'>
-                        <h3 className='text-4xl font-bold '>
-                                        {skills.title}
+                        <h3 className='xl:text-4xl md:text-xl xl:px-5 font-bold'>
+                        {skills.title}
                                     </h3>
-                                    <p className='text-white/60 text-[18px] md:text-[22px] xs:px-5'>
-                                        {skills.description}
+                                    <p className='text-white/60 xl:text-[18px] md:text-[22px] xs:px-5'>
+                                    {skills.description}
                                     </p>
                                 <ul className='grid grid-cols-2 mt-6 sm:grid-cols-3 xs:grid-cols-1 md:grid-cols-4 gap-4 xl:gap-[30px] xs:px-5'>                                    {skills.skillList.map((skill,index)=>{
                                         return(
@@ -261,10 +259,10 @@ const Resume =() =>{
                         </TabsContent>
                         <TabsContent value='about' className='w-full h-full'>
                         <div className='flex flex-col gap-[30px] text-center xl:text-left'>
-                        <h3 className='text-4xl font-bold'>
+                        <h3 className='xl:text-4xl md:text-xl xl:px-5 font-bold'>
                         {about.title}
                                 </h3>
-                                <p className='text-white/60 text-[18px] md:text-[22px] xs:px-5'>
+                                <p className='text-white/60 xl:text-[18px] md:text-[22px] xs:px-5'>
                                 {about.description}</p>
                                 <ul className="gap-y-6 xl:mx-0 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
                                 {about.info.map((item, index) => (

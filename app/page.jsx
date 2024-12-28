@@ -49,14 +49,14 @@ export default function Home() {
    <div className="border-b border-white/20 w-full mt-12"></div>
 
    <div className="mt-12">
-    <h5 className="text-accent">SERVICES</h5>
-    <h1 className="text-[66px]">What I Do</h1>
+    <h5 className="text-accent text-center xs:px-10">SERVICES</h5>
+    <h1 className="text-[66px] text-center xs:text-[58px] xs:px-5">What I Do</h1>
    <Services/>
    </div>
    <div className="border-b border-white/20 w-full mt-12"></div>
    <div className="mt-12">
-    <h5 className="text-accent text-center">Visit my projects and keep your feedback</h5>
-    <h1 className="text-[66px] text-center">My Projects</h1>
+    <h5 className="text-accent text-center xs:px-10">Visit my projects and keep your feedback</h5>
+    <h1 className="text-[66px] text-center xs:text-[58px] xs:px-5">My Projects</h1>
     <Work/>
     </div>
     <div className="border-b border-white/20 w-full mt-12"></div>
