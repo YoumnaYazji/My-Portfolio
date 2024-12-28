@@ -61,8 +61,8 @@ export default function Home() {
     </div>
     <div className="border-b border-white/20 w-full mt-12"></div>
    <div className="mt-12">
-    <h5 className="text-accent text-center">+2 YEARS OF EXPERIENCE</h5>
-    <h1 className="text-[66px] text-center">My Resume</h1>
+    <h5 className="text-accent text-center xs:px-10">+2 YEARS OF EXPERIENCE</h5>
+    <h1 className="text-[66px] text-center xs:text-[58px] xs:px-5">My Resume</h1>
     <Resume/>
     </div>
    </>
