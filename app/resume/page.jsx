@@ -1,13 +1,11 @@
 "use client";
 
-import {FaHtml5,FaCss3,FaJs,FaReact,FaFigma,FaNodeJs} from 'react-icons/fa'
-import { SiAutocad,SiAutodeskrevit,SiMicrosoftexcel ,  } from "react-icons/si";
+import {FaHtml5,FaCss3,FaJs,FaReact,FaFigma,FaBootstrap,FaSass,FaLaravel,FaWordpress,FaGitAlt, FaGithub   } from 'react-icons/fa'
 import { FaRegUser } from "react-icons/fa";
-import { PiMicrosoftWordLogoFill } from "react-icons/pi";
 import { BsTelephone } from "react-icons/bs";
 import { FaRegEnvelope } from "react-icons/fa6";
 import { LiaLanguageSolid } from "react-icons/lia";
-import { SiFreelancer } from "react-icons/si";
+import { SiFreelancer,SiJquery,SiMysql   } from "react-icons/si";
 import { FaLink } from "react-icons/fa6";
 
 import { SiTailwindcss,SiNextdotjs} from 'react-icons/si'
@@ -85,21 +83,66 @@ const skills ={
     description:'Proficient in managing large-scale projects, collaborating with multidisciplinary teams, and balancing technical requirements with economic and environmental considerations. Committed to creating safe, efficient, and sustainable solutions that enhance quality of life for communities worldwide.',
     skillList:[
         {   
-        icon:<SiAutocad/>,
-        name:'AutoCad'
+        icon:<FaHtml5/>,
+        name:'HTML5'
     },
     {
-        icon:<SiAutodeskrevit/>,
-        name:'Revit'
+        icon:<FaCss3/>,
+        name:'CSS3'
     },
     {
-        icon:<SiMicrosoftexcel/>,
-        name:'Excel'
+        icon:<SiTailwindcss/>,
+        name:'Tailwind'
     },
     {
-        icon:<PiMicrosoftWordLogoFill/>,
-        name:'Word'
+        icon:<FaBootstrap/>,
+        name:'Bootstrap'
+    },  
+    {
+        icon:<FaSass/>,
+        name:'Sass'
+    },  
+    {
+        icon:<FaJs/>,
+        name:'JavaScript'
     },
+    {
+        icon:<SiJquery/>,
+        name:'Jquery'
+    },
+    {
+        icon:<FaReact/>,
+        name:'React JS'
+    },
+    {
+        icon:<SiNextdotjs/>,
+        name:'Next JS'
+    },
+    {
+        icon:<FaFigma/>,
+        name:'Figma'
+    },
+    {
+        icon:<FaLaravel/>,
+        name:'Laravel'
+    },
+    {
+        icon:<SiMysql/>,
+        name:'My SQL'
+    },
+    {
+        icon:<FaGitAlt/>,
+        name:'Git'
+    },
+    {
+        icon:<FaGithub/>,
+        name:'Github'
+    },
+    {
+        icon:<FaWordpress/>,
+        name:'Wordpress'
+    },
+   
 ]
 }
 
@@ -110,32 +153,33 @@ const Resume =() =>{
             <div className="px-12 mt-5 xl:w-[90%] mx-auto xs:w-full md:x-full">
                 <Tabs defaultValue='education' className='gap-[60px]'>
                     <TabsList className=' w-full mx-auto xl:mx-0 gap-[60px] md:flex-col md:items-center md:gap-4 lg:flex-row lg:items-start lg:mx-auto xs:flex-col xs:items-center xl:gap-4 xl:mx-0'>
-                        <TabsTrigger value='education' className="text-[18px]">Education</TabsTrigger>
-                        <TabsTrigger value='experience'className="text-[18px]" >Experience</TabsTrigger>
-                        <TabsTrigger value='skills' className="text-[18px]">Skills</TabsTrigger>
-                        <TabsTrigger value='about' className="text-[18px]">About Me</TabsTrigger>
+                        <TabsTrigger value='education' className="text-[18px] md:text-[22px]">Education</TabsTrigger>
+                        <TabsTrigger value='experience'className="text-[18px] md:text-[22px]" >Experience</TabsTrigger>
+                        <TabsTrigger value='skills' className="text-[18px] md:text-[22px]">Skills</TabsTrigger>
+                        <TabsTrigger value='about' className="text-[18px] md:text-[22px]">About Me</TabsTrigger>
 
                     </TabsList>
                     <div className='mt-10 min-h-[70vh] w-full'>
 
-                        <TabsContent value='education' className='w-[80vw]'>
-                        <div className='flex flex-col gap-[30px] p-5 xl:text-left'>
+                    <TabsContent value='education' className='w-full h-full'>
+                    <div className='flex flex-col gap-[30px] text-center xl:text-left'>
                                 <h3 className='text-4xl font-bold'>
                                     {education.title}
                                 </h3>
-                                <p className='text-white/80 py-5 text-[18px]'>{education.description}</p>
+                                <p className='text-white/60 text-[18px] md:text-[22px]'>
+                                {education.description}</p>
                                 <ScrollArea className='h-[400px]'>
                                     <ul className='grid frid-cols-1 lg:grid-cols-2 gap-[30px]'>
                                         {education.items.map((item,index)=>{
                                             return(
-                                                <li key={index} className='bg-[#232329] h-[184px] xl:h-[200px] lg:h-[200px] md:-[200px] sm:h-[200px] xs:h-[300px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1'>
+                                                <li key={index} className='bg-[#232329] h-[184px] xl:h-[200px] lg:h-[200px] md:-[200px] sm:h-[200px] xs:h-[300px] md:text-xl sm:text-2xl xs:text-2xl py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1'>
                                                     <span  className='text-accent'>
                                                         {item.duration}
                                                     </span>
-                                                    <h3 className='text-xl mt-2 text-center lg:text-left md:text-xl sm:text-base xs:text-base xs:mb-2'>
+                                                    <h3 className='text-2xl mt-2 text-center lg:text-left md:text-xl sm:text-2xl xs:text-2xl xs:mb-2'>
                                                         {item.degree}
                                                     </h3>
-                                                        <p className='text-white/60 mt-2 sm:text-base xs:text-base xs:mb-2'>
+                                                        <p className='text-white/60 text-xl mt-2 sm:text-xl xs:text-xl xs:mb-2'>
                                                             {item.instituation}
                                                         </p>
                                                 </li>
@@ -176,15 +220,13 @@ const Resume =() =>{
                              </div>
                         </TabsContent>
                         <TabsContent value='skills' className='w-full h-full'>
-                             <div className='flex- flex-col- gap-[30px]'>
-                                <div className='flex flex-col gap-[30px] text-center xl:text-left'>
-                                    <h3 className='text-4xl font-bold '>
+                        <div className='flex flex-col gap-[30px] text-center xl:text-left'>
+                        <h3 className='text-4xl font-bold '>
                                         {skills.title}
                                     </h3>
-                                    <p className='max-w-[600px] text-white/60 mx-auto xl:mx-0'>
+                                    <p className='text-white/60 text-[18px] md:text-[22px]'>
                                         {skills.description}
                                     </p>
-                                </div>
                                 <ul className='grid grid-cols-2 mt-6 sm:grid-cols-3 xs:grid-cols-1 md:grid-cols-4 gap-4 xl:gap-[30px]'>                                    {skills.skillList.map((skill,index)=>{
                                         return(
                                             <li key={index}>
@@ -205,12 +247,13 @@ const Resume =() =>{
                                     <p className='text-2xl mt-10'>+7 another Program</p>
                              </div>
                         </TabsContent>
-                        <TabsContent value='about' className='w-full'>
-                        <div className='flex flex-col gap-[30px] p-5 xl:text-left'>
-                                <h3 className='text-4xl font-bold'>
+                        <TabsContent value='about' className='w-full h-full'>
+                        <div className='flex flex-col gap-[30px] text-center xl:text-left'>
+                        <h3 className='text-4xl font-bold'>
                                     {about.title}
                                 </h3>
-                                <p className='text-white/60 py-5  text-[18px]'>{about.description}</p>
+                                <p className='text-white/60 text-[18px] md:text-[22px]'>
+                                {about.description}</p>
                                 <ul className="gap-y-6 xl:mx-0 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 ">
                                 {about.info.map((item, index) => (
                                 <li
