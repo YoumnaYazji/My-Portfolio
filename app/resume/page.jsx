@@ -5,7 +5,7 @@ import { FaRegUser } from "react-icons/fa";
 import { BsTelephone } from "react-icons/bs";
 import { FaRegEnvelope } from "react-icons/fa6";
 import { LiaLanguageSolid } from "react-icons/lia";
-import { SiFreelancer,SiJquery,SiMysql   } from "react-icons/si";
+import { SiFreelancer,SiJira,SiJquery,SiMongodb,SiMysql, SiPostman   } from "react-icons/si";
 import { FaLink } from "react-icons/fa6";
 
 import { SiTailwindcss,SiNextdotjs} from 'react-icons/si'
@@ -131,6 +131,10 @@ const skills ={
         name:'My SQL'
     },
     {
+        icon:<SiMongodb/>,
+        name:"MongoDB"
+    },
+    {
         icon:<FaGitAlt/>,
         name:'Git'
     },
@@ -138,6 +142,15 @@ const skills ={
         icon:<FaGithub/>,
         name:'Github'
     },
+     {
+        icon:<SiPostman/>,
+        name:'Postman'
+     },
+     {
+        icon:<SiJira/>,
+        name:'Jira'
+
+     },
     {
         icon:<FaWordpress/>,
         name:'Wordpress'
@@ -166,7 +179,7 @@ const Resume =() =>{
                                 <h3 className='text-4xl font-bold'>
                                     {education.title}
                                 </h3>
-                                <p className='text-white/60 text-[18px] md:text-[22px]'>
+                                <p className='text-white/60 text-[18px] md:text-[22px] xs:px-3'>
                                 {education.description}</p>
                                 <ScrollArea className='h-[400px]'>
                                     <ul className='grid frid-cols-1 lg:grid-cols-2 gap-[30px]'>
@@ -224,7 +237,7 @@ const Resume =() =>{
                         <h3 className='text-4xl font-bold '>
                                         {skills.title}
                                     </h3>
-                                    <p className='text-white/60 text-[18px] md:text-[22px]'>
+                                    <p className='text-white/60 text-[18px] md:text-[22px] xs:px-3'>
                                         {skills.description}
                                     </p>
                                 <ul className='grid grid-cols-2 mt-6 sm:grid-cols-3 xs:grid-cols-1 md:grid-cols-4 gap-4 xl:gap-[30px]'>                                    {skills.skillList.map((skill,index)=>{
@@ -233,7 +246,7 @@ const Resume =() =>{
                                                <TooltipProvider delayDuration={100}>
                                                 <Tooltip>
                                                     <TooltipTrigger className='w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group'>
-                                                        <div className='text-6xl group-hover:text-accent transition-all duration-300'>{skill.icon}</div>
+                                                        <div className='text-6xl group-hover:text-accent transition-all duration-300'>{skill.icon}<span className='text-xl'>{skill.name}</span></div>
                                                     </TooltipTrigger>
                                                     <TooltipContent>
                                                         <p className='capitialize'>{skill.name}</p>
@@ -244,7 +257,6 @@ const Resume =() =>{
                                         )
                                     })}
                                 </ul>
-                                    <p className='text-2xl mt-10'>+7 another Program</p>
                              </div>
                         </TabsContent>
                         <TabsContent value='about' className='w-full h-full'>
@@ -252,7 +264,7 @@ const Resume =() =>{
                         <h3 className='text-4xl font-bold'>
                                     {about.title}
                                 </h3>
-                                <p className='text-white/60 text-[18px] md:text-[22px]'>
+                                <p className='text-white/60 text-[18px] md:text-[22px] xs:px-3'>
                                 {about.description}</p>
                                 <ul className="gap-y-6 xl:mx-0 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 ">
                                 {about.info.map((item, index) => (
