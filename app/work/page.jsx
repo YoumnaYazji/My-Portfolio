@@ -77,6 +77,8 @@ const Work =() =>{
     }
     return(
         <>
+            <h5 className="text-accent text-center xs:px-10">Visit my projects and keep your feedback</h5>
+            <h1 className="text-[66px] text-center xs:text-[58px] xs:px-5">My Projects</h1>
         <motion.div initial={{opacity:0}} animate={{opacity:1, transition :{delay:2, duration:0.4, ease:"easeIn"
             }}}  className='min-h-[80vh] flex flex-col justify-center py-12 xl:px-0'>
             <div  className="container xs:max-w-[1300px] ">

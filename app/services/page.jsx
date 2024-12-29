@@ -47,7 +47,10 @@ const services = [
 const Services =() =>{
     return(
         <>
-        <section className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-0 px-8">
+        
+            <h5 className="text-accent text-center xs:px-10">SERVICES</h5>
+            <h1 className="text-[66px] text-center xs:text-[58px] xs:px-5">What I Do</h1>
+        <section className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-0 xl:px-32 md:px-5 xs:px-8">
             <motion.div initial={{opacity:0}} animate={{opacity:1, transition :{delay:2, duration:0.4, ease:"easeIn"
             }}} className="grid grid-cols-1 md:grid-cols-3 gap-[60px] ">
                {services.map((service,index)=>{

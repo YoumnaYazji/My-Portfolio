@@ -1,35 +1,72 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Select,SelectContent,SelectGroup,SelectLabel,SelectTrigger,SelectValue , SelectItem } from "@/components/ui/select";
 import {FaPhoneAlt,FaEnvelope,FaMapMarkerAlt} from 'react-icons/fa';
 import { motion } from "framer-motion";
-const info = [
-    {
-        icon:<FaPhoneAlt/>,
-        title:'Phone',
-        description:'+963 994 685 433',
-    },
-    {
-        icon:<FaEnvelope/>,
-        title:'Email',
-        description:'skhzam111@gmail.com',
-    },
-    {
-        icon:<FaMapMarkerAlt/>,
-        title:'Address',
-        description:'Syria, Homs',
-    },
-]
+import { FaRegUser } from "react-icons/fa";
+import { BsTelephone } from "react-icons/bs";
+import { FaRegEnvelope } from "react-icons/fa6";
+import { LiaLanguageSolid } from "react-icons/lia";
+import { SiFreelancer } from "react-icons/si";
+import { FaLink } from "react-icons/fa6";
+
+const about={ 
+    title:'Let’s Work Togther',
+    description:'I am a Web Developer specializing in front end development, aiming towards a better understanding and development my knowledge at this field. Experienced with development cycle for dynamic web projects.',
+    info :[
+
+        {
+            fieldName:'Phone',
+            fieldValue:'+963 968 569 238',
+            icon:<BsTelephone/>
+        },
+        {
+            fieldName:'Email',
+            fieldValue:'youmna.yazji@gmail.com',
+            icon:<FaRegEnvelope/>
+        },
+        {
+            fieldName:'Address',
+            fieldValue:'Homs, Syria',
+            icon:<FaMapMarkerAlt/>,
+        }
+       
+
+    ]
+}
+
 const Contact =() =>{
     return(
         <>
-        <motion.section initial={{opacity:0}} animate={{opacity:1, transition :{delay:2, duration:0.4, ease:"easeIn"
+                    <div className="px-12 mt-5 xl:w-[90%] mx-auto xs:w-full md:x-full px-20">
+
+         <div className='flex flex-col gap-[30px] text-center xl:text-left px-5'>
+         <h1 className="text-[66px] text-center xs:text-[58px] xs:px-5">{about.title}</h1>
+
+                                
+                                <ul className="gap-y-6 xl:mx-0 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+                                {about.info.map((item, index) => (
+                                <li
+                                key={index}
+                                className={`bg-[#232329]  text-[18px] h-[80px] w-full px-8 rounded-xl flex items-center justify-center xl:justify-start gap-4 ${
+                                  index >= 0 ? "mt-6" : ""
+                                }
+                              
+                                `}
+                              >
+                                <div className="flex items-center gap-2">
+                                  <span className="text-accent text-[18px]">{item.icon}</span> 
+                                  <span className="text-white/60">{item.fieldName}</span> 
+                                </div>
+                                <span className="text-white">{item.fieldValue}</span>
+                              </li>
+                                ))}
+                                </ul>
+                             </div>
+                             </div>
+      {/*  <motion.section initial={{opacity:0}} animate={{opacity:1, transition :{delay:2, duration:0.4, ease:"easeIn"
             }}} className="py-6">
         
-               {/* <div className="xl:h-[54%] order-2 xl:order-none">
+               <div className="xl:h-[54%] order-2 xl:order-none">
                 <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl" >
                     <h3 className="text-4xl text-accent">
                         Let’s work together
@@ -67,7 +104,7 @@ const Contact =() =>{
                     Send Message
                 </Button>
                 </form>
-                </div>*/}
+                </div>
             <h3 className="text-4xl text-accent md:text-left xs:text-center xs:mr-5 md:ml-20">
             Let’s work together
             </h3>
@@ -95,7 +132,7 @@ const Contact =() =>{
 </div>
 
             
-        </motion.section>
+        </motion.section>*/}
         </>
     )
 }
