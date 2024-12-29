@@ -37,7 +37,6 @@ const about={
 const Contact =() =>{
     return(
         <>
-                    <div className="px-12 mt-5 xl:w-[90%] mx-auto xs:w-full md:x-full px-20">
 
          <div className='flex flex-col gap-[30px] text-center xl:text-left px-5'>
          <h1 className="text-[66px] text-center xs:text-[58px] xs:px-5">{about.title}</h1>
@@ -61,7 +60,6 @@ const Contact =() =>{
                               </li>
                                 ))}
                                 </ul>
-                             </div>
                              </div>
       {/*  <motion.section initial={{opacity:0}} animate={{opacity:1, transition :{delay:2, duration:0.4, ease:"easeIn"
             }}} className="py-6">
