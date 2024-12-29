@@ -13,9 +13,8 @@ export default function Home() {
   return (
    <>
    <section className="h-full">
-      <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
-          <div className="text-center xl:text-left order-2 xl:order-none ">
+          <div className="text-center xl:text-left order-2 xl:order-none px-8 ">
             <span className="text-xl">
               WELCOME TO MY WORLD
             </span>
@@ -43,7 +42,6 @@ export default function Home() {
             <MyPhoto/>
           </div>
         </div>
-      </div>
       <Stats/>
    </section>
    <div className="border-b border-white/20 w-full mt-12"></div>

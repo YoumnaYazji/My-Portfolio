@@ -165,7 +165,7 @@ const Resume =() =>{
         <>
             <div className="px-12 mt-5 xl:w-[90%] mx-auto xs:w-full md:x-full">
                 <Tabs defaultValue='education' className='gap-[60px]'>
-                    <TabsList className=' w-full mx-auto xl:mx-0 gap-[60px] md:flex-col md:items-center md:gap-4 lg:flex-row lg:items-start lg:mx-auto xs:flex-col xs:items-center xl:gap-4 xl:mx-0 xs:px-5'>
+                    <TabsList className=' w-full mx-auto xl:mx-0 gap-[60px] md:flex-col md:items-center md:gap-4 lg:flex-row lg:items-start lg:mx-auto xs:flex-col xs:items-center xl:gap-4 xl:mx-0'>
                         <TabsTrigger value='education' className="xl:text-[18px] md:text-[22px]">Education</TabsTrigger>
                         <TabsTrigger value='experience'className="xl:text-[18px] md:text-[22px]" >Experience</TabsTrigger>
                         <TabsTrigger value='skills' className="xl:text-[18px] md:text-[22px]">Skills</TabsTrigger>
@@ -179,7 +179,7 @@ const Resume =() =>{
                     <h3 className='xl:text-4xl md:text-xl xl:px-5 font-bold'>
                                     {education.title}
                                 </h3>
-                                <p className='text-white/60 xl:text-[18px] md:text-[22px] xs:px-5'>
+                                <p className='text-white/60 xl:text-[18px] md:text-[22px]'>
                                 {education.description}</p>
                                 <ScrollArea className='h-[400px]'>
                                     <ul className='grid frid-cols-1 lg:grid-cols-2 gap-[30px] xs:px-5 '>
@@ -207,7 +207,7 @@ const Resume =() =>{
                         <h3 className='xl:text-4xl md:text-xl xl:px-5 font-bold'>
                         {experience.title}
                                 </h3>
-                                <p className='text-white/60 xl:text-[18px] md:text-[22px] xs:px-5'>
+                                <p className='text-white/60 xl:text-[18px] md:text-[22px]'>
                                 {experience.description}</p>
                                 <ScrollArea className='h-[400px]'>
                                 <ul className='grid frid-cols-1 lg:grid-cols-2 gap-[30px] xs:px-5 '>
@@ -235,7 +235,7 @@ const Resume =() =>{
                         <h3 className='xl:text-4xl md:text-xl xl:px-5 font-bold'>
                         {skills.title}
                                     </h3>
-                                    <p className='text-white/60 xl:text-[18px] md:text-[22px] xs:px-5'>
+                                    <p className='text-white/60 xl:text-[18px] md:text-[22px]'>
                                     {skills.description}
                                     </p>
                                 <ul className='grid grid-cols-2 mt-6 sm:grid-cols-3 xs:grid-cols-1 md:grid-cols-4 gap-4 xl:gap-[30px] xs:px-5'>                                    {skills.skillList.map((skill,index)=>{
@@ -262,7 +262,7 @@ const Resume =() =>{
                         <h3 className='xl:text-4xl md:text-xl xl:px-5 font-bold'>
                         {about.title}
                                 </h3>
-                                <p className='text-white/60 xl:text-[18px] md:text-[22px] xs:px-5'>
+                                <p className='text-white/60 xl:text-[18px] md:text-[22px]'>
                                 {about.description}</p>
                                 <ul className="gap-y-6 xl:mx-0 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
                                 {about.info.map((item, index) => (
