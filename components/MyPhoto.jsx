@@ -11,10 +11,10 @@ const MyPhoto = () =>{
                 <motion.div
                 initial={{opacity:0}} animate={{opacity:1, transition :{delay:2.4, duration:0.4, ease:"easeInOut"
                 }}} 
-                 className=" xs:h-[420px] xs:w-[400px] sm:w-[420px]  sm:h-[420px] md:w-[498px] md:h-[450px] lg:w-[450px]  lg:h-[498px] xl:w-[498px] xl:h-[498px] xs:ml-8 xs:mt-8 sm:ml-8 sm:mt-8 md:ml-1 md:mt-5 xl:ml-9 xl:mt-6 my-photo absolute">
+                 className=" xs:h-[400px] xs:w-[370px] sm:w-[420px]  sm:h-[420px] md:w-[498px] md:h-[450px] lg:w-[450px]  lg:h-[498px] xl:w-[498px] xl:h-[498px] xs:ml-8 xs:mt-12 sm:ml-8 sm:mt-8 md:ml-1 md:mt-5 xl:ml-9 xl:mt-6 my-photo absolute">
                     <Image src={myphoto} priority quality={100} fill alt="" className="object-contain photo sm:max-width[100%] xl:ml-12"/>
                 </motion.div>
-                <motion.svg className="md:w-[490px] xs:w-[420px] xl:w-[582px] h-[550px] xl:h-[570px] " fill="transparent" viewBox="0 0 490 490" xmlns="http://www.w3.org/2000/svg"> 
+                <motion.svg className="md:w-[480px] xs:w-[400px] xl:w-[582px] h-[550px] xl:h-[570px] " fill="transparent" viewBox="0 0 490 490" xmlns="http://www.w3.org/2000/svg"> 
     <motion.circle  
         cx="248"  
         cy="256"  
