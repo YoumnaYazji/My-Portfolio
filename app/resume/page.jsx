@@ -174,7 +174,7 @@ const Resume =() =>{
                         <TabsTrigger value='about' className="xl:text-[18px] md:text-[24px]">About Me</TabsTrigger>
 
                     </TabsList>
-                    <div className='mt-10 min-h-[70vh] w-full'>
+                    <div className='mt-10 w-full'>
 
                     <TabsContent value='education' className='w-full h-full'>
                     <div className='flex flex-col gap-[30px] text-center xl:text-left'>
@@ -184,7 +184,7 @@ const Resume =() =>{
                                 <p className='text-white/60 xl:text-[18px] md:text-[22px] xl:px-5'>
                                 {education.description}</p>
                                 <ScrollArea className='h-[400px]'>
-                                    <ul className='grid frid-cols-1 lg:grid-cols-2 gap-[30px] xs:px-5 '>
+                                    <ul className='grid grid-cols-1 lg:grid-cols-2 gap-[30px] xs:px-5 '>
                                         {education.items.map((item,index)=>{
                                             return(
                                                 <li key={index} className='bg-[#232329] h-[184px] xl:h-[200px] lg:h-[200px] md:-[200px] sm:h-[200px] xs:h-[300px] md:text-xl sm:text-xl xs:text-xl py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1'>
@@ -212,7 +212,7 @@ const Resume =() =>{
                                 <p className='text-white/60 xl:text-[18px] md:text-[22px] xl:px-5'>
                                 {experience.description}</p>
                                 <ScrollArea className='h-[400px]'>
-                                <ul className='grid frid-cols-1 lg:grid-cols-2 gap-[30px] xs:px-5 '>
+                                <ul className='grid grid-cols-1 lg:grid-cols-2 gap-[30px] xs:px-5 '>
                                 {experience.items.map((item,index)=>{
                                             return(
                                                 <li key={index} className='bg-[#232329] h-[184px] xl:h-[200px] lg:h-[200px] md:-[200px] sm:h-[200px] xs:h-[300px] md:text-xl sm:text-xl xs:text-xl py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1'>
