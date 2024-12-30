@@ -10,6 +10,7 @@ import Services from "./services/page";
 import Work from "./work/page";
 import Resume from "./resume/page";
 import Contact from "./contact/page";
+import Footer from "./footer/page";
 export default function Home() {
   return (
    <>
@@ -62,6 +63,10 @@ export default function Home() {
     <div className="border-b border-white/20 w-full mt-12"></div>
    <div className="mt-12">
     <Contact/>
+    </div>
+    <div className="border-b border-white/20 w-full mt-12"></div>
+    <div className="mt-12">
+    <Footer/>
     </div>
    </>
   );
