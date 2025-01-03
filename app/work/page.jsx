@@ -1,15 +1,6 @@
 'use client';
-import { Button } from '@/components/ui/button';
 import {motion} from 'framer-motion'
-import { useState } from 'react';
-import {Swiper,SwiperSlide} from 'swiper/react'
 import 'swiper/css';
-import {BsArrowUpRight,BsGithub} from 'react-icons/bs'
-import {Tooltip,TooltipContent,TooltipProvider,TooltipTrigger} from '@/components/ui/tooltip'
-import Link from 'next/link';
-import Image from 'next/image';
-import WorkSliderBtns from '@/components/WorkSliderBtns';
-import { Autoplay } from 'swiper/modules';
 import { RiGlobalLine } from "react-icons/ri";
 
 
@@ -37,8 +28,8 @@ const projects=[
     },
     {
         num:'02',
-        title:'Restaurantly',
-        description:'A delivery website for a restaurant where the customer can order online and determine his location using a real map. The website has a Dashboard for managing orders with the ability to view the details of each order individually, and also for managing the meals and foods that are available in the restaurant, displaying them, and the ability to modify them (add, delete, update).',
+        title:'Watch Oasis',
+        description:'A delivery website for a restaurant where the customer can order online.',
         icon:<RiGlobalLine/>,
         stack:[
             {
@@ -61,7 +52,147 @@ const projects=[
             },
            
         ],
-        image:'/coverSkyTower.jpg',
+        image:'/watch.png',
+    },
+    {
+        num:'03',
+        title:'L\'Antica Pizzeria',
+        description:'A delivery website for a restaurant where the customer can order online.',
+        icon:<RiGlobalLine/>,
+        stack:[
+            {
+                name:'React JS',
+            },
+            {
+                name:'Redux',
+            },
+            {
+                name:'Bootstrap',
+            },
+            {
+                name:'Chart JS',
+            }, 
+            {
+                name:'Laravel ',
+            },
+            {
+                name:'MySQL',
+            },
+           
+        ],
+        image:'/pizzara.png',
+    },
+    {
+        num:'04',
+        title:'The Way',
+        description:'A delivery website for a restaurant where the customer can order online.',
+        icon:<RiGlobalLine/>,
+        stack:[
+            {
+                name:'React JS',
+            },
+            {
+                name:'Redux',
+            },
+            {
+                name:'Bootstrap',
+            },
+            {
+                name:'Chart JS',
+            }, 
+            {
+                name:'Laravel ',
+            },
+            {
+                name:'MySQL',
+            },
+           
+        ],
+        image:'/the_Way.png',
+    },
+    {
+        num:'05',
+        title:'Aix Investment',
+        description:'A delivery website for a restaurant where the customer can order online.',
+        icon:<RiGlobalLine/>,
+        stack:[
+            {
+                name:'React JS',
+            },
+            {
+                name:'Redux',
+            },
+            {
+                name:'Bootstrap',
+            },
+            {
+                name:'Chart JS',
+            }, 
+            {
+                name:'Laravel ',
+            },
+            {
+                name:'MySQL',
+            },
+           
+        ],
+        image:'/aix.png',
+    },
+    {
+        num:'06',
+        title:'ISSA Skintherapy',
+        description:'A delivery website for a restaurant where the customer can order online.',
+        icon:<RiGlobalLine/>,
+        stack:[
+            {
+                name:'React JS',
+            },
+            {
+                name:'Redux',
+            },
+            {
+                name:'Bootstrap',
+            },
+            {
+                name:'Chart JS',
+            }, 
+            {
+                name:'Laravel ',
+            },
+            {
+                name:'MySQL',
+            },
+           
+        ],
+        image:'/issa.png',
+    },
+    {
+        num:'07',
+        title:'We are the future',
+        description:'A delivery website for a restaurant where the customer can order online.',
+        icon:<RiGlobalLine/>,
+        stack:[
+            {
+                name:'React JS',
+            },
+            {
+                name:'Redux',
+            },
+            {
+                name:'Bootstrap',
+            },
+            {
+                name:'Chart JS',
+            }, 
+            {
+                name:'Laravel ',
+            },
+            {
+                name:'MySQL',
+            },
+           
+        ],
+        image:'/future.png',
     },
     
     
