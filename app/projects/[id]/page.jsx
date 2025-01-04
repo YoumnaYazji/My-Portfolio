@@ -27,15 +27,9 @@ export default function ProjectPage({ params }) {
     <div className='flex flex-col xl:flex-row xl:gap-[30px]'>
       <div className='w-full xl:w-[50%] xs:w-[100%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none'>
         <div className='flex flex-col gap-[30px] h-[50%]'>
-            <h2 className='text-[42px] font-bold leading-none text-white graoup-hover:text-accent transition-all duration-500 capitalize'>{project.title}</h2>
-            <p className='text-white/60'>{project.description}</p>
-            {/*<ul className='flex flex-wrap gap-4 text-xl text-accent'>
-            {project.stack.map((item, index) => (
-            <li key={index} className='inline-block text-xl text-accent'>{item.name}
-            {index !== project.stack.length-1 && ","}
-            </li>
-            ))}
-            </ul>*/}
+            <h2 className='text-[42px] xs:mt-10 xs:px-3 font-bold leading-none text-white graoup-hover:text-accent transition-all duration-500 capitalize'>{project.title}</h2>
+            <p className='text-white/60 xs:px-3'>{project.description}</p>
+           
             {project.liveDemoLink && (
                             <a
                             href={project.liveDemoLink}
@@ -81,11 +75,8 @@ export default function ProjectPage({ params }) {
         <div>
           
                 <div className='w-full '>
-                   <div className='relative group flex justify-center items-center bg-pink-50/20'>  
-                    <div className='absolute top-0 bottom-0 w-full h-full bg-black/10 z-10'>
-
-                    </div>
-                    <div className='relative w-full h-full'>
+                   <div className='relative group flex justify-center items-center bg-pink-50/20 rounded-xl mt-12'>  
+                    <div className='relative w-full h-full rounded-xl'>
                     <img src={project.image} alt="Project Image" style={{ display: 'block' }} className='rounded-xl project-photo' /> 
                     </div>
                    </div>
@@ -95,8 +86,16 @@ export default function ProjectPage({ params }) {
     </div>
     <div className='mt-10'>
         <h1 className='text-[42px] font-bold leading-none text-white graoup-hover:text-accent transition-all duration-500 capitalize'>Project Overview</h1>
-        
-        <p className='text-white/60 mt-8'>{project.projectoverview}</p>
+        <p className='text-white/60 mt-8 text-[18px]'>{project.projectoverview}</p>
+        <h1 className='text-[42px] font-bold leading-none text-white graoup-hover:text-accent transition-all duration-500 capitalize mt-12'>Technical Details: </h1>
+        <h1 className='text-[24px] px-2 text-accent font-bold leading-none graoup-hover:text-accent transition-all duration-500 capitalize mt-8'> Frontend Technical: </h1>
+        <ul className='flex flex-wrap gap-4 text-xl text-accent px-2 mt-5'>
+        {project.stack.map((item, index) => (
+        <li key={index} className='inline-block text-xl text-white/60'>{item.name}
+        {index !== project.stack.length-1 && ","}
+        </li>
+        ))}
+        </ul>
     </div>
    
     </div> 

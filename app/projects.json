@@ -4,55 +4,57 @@
     "title": "Dolce & Salato",
     "description": "As a Frontend Developer for Dolce  Salato, I played a pivotal role in designing and implementing user-friendly interfaces that ensure seamless user experiences. My responsibilities included optimizing front-end performance, enhancing UI/UX design, and integrating APIs to facilitate smooth interactions between the application and its users. I collaborated closely with backend developers to ensure efficient data flow and implemented best practices in responsive design to enhance accessibility across devices.",
     "stack": [
+      { "name": "Html" },
+      { "name": "CSS" },
+      { "name": "Bootstrap" },
+      { "name": "JavaScript" },
       { "name": "React JS" },
-      { "name": "Redux" },
-      { "name": "Bootstrap" }
+      { "name": "Redux" }
     ],
     "image": "/dolce.png",
     "liveDemoLink": "https://dolcesalato.ae/",
-     "projectoverview":"The Dolce  Salato eCommerce platform is built using React JS, a JavaScript library for building user interfaces, which allows for the creation of a dynamic and responsive frontend. The application utilizes Redux for state management, providing a centralized store that facilitates predictable state transitions and enables efficient data handling across components. This architecture supports real-time updates, enhancing user experience during interactions such as adding items to the cart."
+     "projectoverview":"The Dolce & Salato e-Commerce platform is built using React JS, a JavaScript library for building user interfaces, which allows for the creation of a dynamic and responsive frontend. The application utilizes Redux for state management, providing a centralized store that facilitates predictable state transitions and enables efficient data handling across components. This architecture supports real-time updates, enhancing user experience during interactions such as adding items to the cart."
   },
   {
     "id": "2",
     "title": "Watch Oasis",
-    "description": "A delivery website for a restaurant where the customer can order online.",
+    "description": "In my role as a Frontend Developer at Watch Oasis, I was instrumental in creating and implementing intuitive user interfaces that promote smooth user experiences. My duties involved optimizing front-end performance, improving UI/UX design, and integrating APIs to ensure seamless interactions between the application and its users. I worked closely with backend developers to guarantee efficient data flow and adhered to best practices in responsive design to improve accessibility across various devices.",
     "stack": [
-      { "name": "React JS" },
-      { "name": "Redux" },
-      { "name": "Bootstrap" },
-      { "name": "Chart JS" },
-      { "name": "Laravel" },
-      { "name": "MySQL" }
+      { "name": "Html" },
+      { "name": "CSS" },
+      { "name": "Tailwind" },
+      { "name": "JavaScript" },
+      { "name": "React JS" }
     ],
     "image": "/watch.png",
-    "liveDemoLink": "https://www.watchoasis.ae/"
+    "liveDemoLink": "https://www.watchoasis.ae/",
+     "projectoverview":"The Watch Oasis is developed using React JS, a popular JavaScript library for building user interfaces. This simple yet elegant website showcases a collection of watches, featuring a clean and responsive design. The platform includes essential pages such as a Home page to highlight featured products, an About page to share the brand's story and values, and a Contact page for customer inquiries. The intuitive navigation and well-organized layout ensure a seamless browsing experience for users."
   },
   {
     "id": "3",
     "title": "L'Antica Pizzeria",
-    "description": "A delivery website for a restaurant where the customer can order online.",
+    "description": "As a Frontend Developer at Watch Oasis, I played a key role in designing and developing user-friendly interfaces that enhance the overall user experience. My responsibilities included optimizing front-end performance, refining UI/UX design, and integrating APIs to facilitate smooth interactions between the application and its users. I collaborated closely with backend developers to ensure effective data flow and followed best practices in responsive design to enhance accessibility across different devices.",
     "stack": [
-      { "name": "React JS" },
-      { "name": "Redux" },
-      { "name": "Bootstrap" },
-      { "name": "Chart JS" },
-      { "name": "Laravel" },
-      { "name": "MySQL" }
+      { "name": "Html" },
+      { "name": "CSS" },
+      { "name": "Tailwind" },
+      { "name": "JavaScript" },
+      { "name": "React JS" }
     ],
     "image": "/pizzara.png",
-    "liveDemoLink": "https://anticapizzeriadamichele.ae/"
+    "liveDemoLink": "https://anticapizzeriadamichele.ae/",
+    "projectoverview":"The Antica Pizzeria Da Michele website aims to provide an engaging online presence for one of the most renowned pizzerias, showcasing its rich history, menu offerings, and dining experience. The website serves as a digital platform to attract new customers, retain existing ones, and facilitate online orders."
   },
     {
     "id": "4",
     "title": "The Way",
-    "description": "A delivery website for a restaurant where the customer can order online.",
+    "description": "As a Frontend Developer at The Way, I was instrumental in crafting and implementing intuitive user interfaces that improve the overall user experience. My role involved optimizing front-end performance, enhancing UI/UX design, and integrating APIs to ensure seamless interactions between the application and its users. I worked closely with backend developers to guarantee efficient data flow and adhered to best practices in responsive design to improve accessibility across various devices.",
     "stack": [
-      { "name": "React JS" },
-      { "name": "Redux" },
+      { "name": "Html" },
+      { "name": "CSS" },
       { "name": "Bootstrap" },
-      { "name": "Chart JS" },
-      { "name": "Laravel" },
-      { "name": "MySQL" }
+      { "name": "JavaScript" },
+      { "name": "React JS" }
     ],
     "image": "/the_Way.png",
     "liveDemoLink": "https://www.theway.ae/"
@@ -60,14 +62,13 @@
     {
     "id": "5",
     "title": "Aix Investment",
-    "description": "A delivery website for a restaurant where the customer can order online.",
+    "description": "As a Frontend Developer at Aix Investment, I played a key role in designing and implementing user-friendly interfaces that enhance the overall user experience. My responsibilities included optimizing front-end performance, improving UI/UX design, and integrating APIs to facilitate smooth interactions between the application and its users. I collaborated closely with backend developers to ensure efficient data flow and followed best practices in responsive design to enhance accessibility across different devices.",
     "stack": [
-      { "name": "React JS" },
-      { "name": "Redux" },
-      { "name": "Bootstrap" },
-      { "name": "Chart JS" },
-      { "name": "Laravel" },
-      { "name": "MySQL" }
+      { "name": "Html" },
+      { "name": "CSS" },
+      { "name": "Tailwind" },
+      { "name": "JavaScript" },
+      { "name": "React JS" }
     ],
     "image": "/aix.png",
     "liveDemoLink": "https://www.aixinvestment.com/"
@@ -75,14 +76,13 @@
     {
     "id": "6",
     "title": "ISSA Skintherapy",
-    "description": "A delivery website for a restaurant where the customer can order online.",
+    "description": "As a Frontend Developer at Watch Oasis, I played a key role in designing and implementing user-friendly interfaces that greatly enhanced the overall user experience. My responsibilities included optimizing front-end performance, improving UI/UX design, and integrating APIs for seamless application interactions. I collaborated closely with backend developers to ensure efficient data communication and followed best practices in responsive design to enhance accessibility across a range of devices. Additionally, I focused on writing clean, maintainable code and actively participated in code reviews to uphold high development standards.",
     "stack": [
-      { "name": "React JS" },
-      { "name": "Redux" },
-      { "name": "Bootstrap" },
-      { "name": "Chart JS" },
-      { "name": "Laravel" },
-      { "name": "MySQL" }
+      { "name": "Html" },
+      { "name": "CSS" },
+      { "name": "Tailwind" },
+      { "name": "JavaScript" },
+      { "name": "React JS" }
     ],
     "image": "/issa.png",
     "liveDemoLink": "https://issaskintherapy.com/"
@@ -92,12 +92,11 @@
     "title": "We are the future",
     "description": "A delivery website for a restaurant where the customer can order online.",
     "stack": [
-      { "name": "React JS" },
-      { "name": "Redux" },
+      { "name": "Html" },
+      { "name": "CSS" },
       { "name": "Bootstrap" },
-      { "name": "Chart JS" },
-      { "name": "Laravel" },
-      { "name": "MySQL" }
+      { "name": "JavaScript" },
+      { "name": "React JS" }
     ],
     "image": "/future.png",
     "liveDemoLink": "https://wearethefuture-aix.com/"
