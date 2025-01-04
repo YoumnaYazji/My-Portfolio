@@ -1,10 +1,10 @@
 "use client"
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
-import {FiDownload} from 'react-icons/fi'
-import Social from "@/components/Social";
-import MyPhoto from "@/components/MyPhoto";
-import Stats from "@/components/Stats";
+import { Button } from "../components/ui/button";
+import {FiDownload} from 'react-icons/fi';
+import Social from "../components/Social";
+import MyPhoto from "../components/MyPhoto";
+import Stats from "../components/Stats";
 import { TypeAnimation } from "react-type-animation";
 import Services from "./services/page";
 import Work from "./work/page";

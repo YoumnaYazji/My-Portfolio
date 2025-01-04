@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const projects=[
     {
-        num:'1',
+        id:'1',
         title:'Dolce & Salato',
         description:'Contributed to the design and development of the Dolce & Salato website. ',
         icon:<RiGlobalLine/>,
@@ -26,7 +26,7 @@ const projects=[
 
     },
     {
-        num:'2',
+        id:'2',
         title:'Watch Oasis',
         description:'A delivery website for a restaurant where the customer can order online.',
         icon:<RiGlobalLine/>,
@@ -56,7 +56,7 @@ const projects=[
 
     },
     {
-        num:'3',
+        id:'3',
         title:'L\'Antica Pizzeria',
         description:'A delivery website for a restaurant where the customer can order online.',
         icon:<RiGlobalLine/>,
@@ -86,7 +86,7 @@ const projects=[
 
     },
     {
-        num:'4',
+        id:'4',
         title:'The Way',
         description:'A delivery website for a restaurant where the customer can order online.',
         icon:<RiGlobalLine/>,
@@ -116,7 +116,7 @@ const projects=[
 
     },
     {
-        num:'5',
+        id:'5',
         title:'Aix Investment',
         description:'A delivery website for a restaurant where the customer can order online.',
         icon:<RiGlobalLine/>,
@@ -146,7 +146,7 @@ const projects=[
 
     },
     {
-        num:'6',
+        id:'6',
         title:'ISSA Skintherapy',
         description:'A delivery website for a restaurant where the customer can order online.',
         icon:<RiGlobalLine/>,
@@ -176,7 +176,7 @@ const projects=[
 
     },
     {
-        num:'7',
+        id:'7',
         title:'We are the future',
         description:'A delivery website for a restaurant where the customer can order online.',
         icon:<RiGlobalLine/>,
@@ -221,9 +221,11 @@ const Work =() =>{
                             {projects.map((project,index)=>{
                              return (
                              <div key={index} className="min-h-[45vh] flex-1 flex flex-col justify-center gap-6 group border border-white/20 w-full rounded-xl p-5">
-                            <div className='bg-accent rounded-xl photo-project' style={{display: 'inline-block', padding: '10px' }}>
+<Link href={`/projects/${project.id}`}>
+                <div className='bg-accent rounded-xl photo-project' style={{display: 'inline-block', padding: '10px' }}>
                             <img src={project.image} alt="Project Image" style={{ display: 'block' }} className='rounded-xl project-photo' /> 
                             </div>
+                            </Link> 
                              <h2 className="text-[26px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 px-2">{project.title}</h2>
                              <p className="text-white/60 px-2">{project.description}</p>
                              {/*<p className='px-2 text-white/60' style={{ display: 'inline-flex', alignItems: 'center' }}>

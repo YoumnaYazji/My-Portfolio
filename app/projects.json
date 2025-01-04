@@ -1,0 +1,105 @@
+[
+  {
+    "id": "1",
+    "title": "Dolce & Salato",
+    "description": "As a Frontend Developer for Dolce  Salato, I played a pivotal role in designing and implementing user-friendly interfaces that ensure seamless user experiences. My responsibilities included optimizing front-end performance, enhancing UI/UX design, and integrating APIs to facilitate smooth interactions between the application and its users. I collaborated closely with backend developers to ensure efficient data flow and implemented best practices in responsive design to enhance accessibility across devices.",
+    "stack": [
+      { "name": "React JS" },
+      { "name": "Redux" },
+      { "name": "Bootstrap" }
+    ],
+    "image": "/dolce.png",
+    "liveDemoLink": "https://dolcesalato.ae/",
+     "projectoverview":"The Dolce  Salato eCommerce platform is built using React JS, a JavaScript library for building user interfaces, which allows for the creation of a dynamic and responsive frontend. The application utilizes Redux for state management, providing a centralized store that facilitates predictable state transitions and enables efficient data handling across components. This architecture supports real-time updates, enhancing user experience during interactions such as adding items to the cart."
+  },
+  {
+    "id": "2",
+    "title": "Watch Oasis",
+    "description": "A delivery website for a restaurant where the customer can order online.",
+    "stack": [
+      { "name": "React JS" },
+      { "name": "Redux" },
+      { "name": "Bootstrap" },
+      { "name": "Chart JS" },
+      { "name": "Laravel" },
+      { "name": "MySQL" }
+    ],
+    "image": "/watch.png",
+    "liveDemoLink": "https://www.watchoasis.ae/"
+  },
+  {
+    "id": "3",
+    "title": "L'Antica Pizzeria",
+    "description": "A delivery website for a restaurant where the customer can order online.",
+    "stack": [
+      { "name": "React JS" },
+      { "name": "Redux" },
+      { "name": "Bootstrap" },
+      { "name": "Chart JS" },
+      { "name": "Laravel" },
+      { "name": "MySQL" }
+    ],
+    "image": "/pizzara.png",
+    "liveDemoLink": "https://anticapizzeriadamichele.ae/"
+  },
+    {
+    "id": "4",
+    "title": "The Way",
+    "description": "A delivery website for a restaurant where the customer can order online.",
+    "stack": [
+      { "name": "React JS" },
+      { "name": "Redux" },
+      { "name": "Bootstrap" },
+      { "name": "Chart JS" },
+      { "name": "Laravel" },
+      { "name": "MySQL" }
+    ],
+    "image": "/the_Way.png",
+    "liveDemoLink": "https://www.theway.ae/"
+  },
+    {
+    "id": "5",
+    "title": "Aix Investment",
+    "description": "A delivery website for a restaurant where the customer can order online.",
+    "stack": [
+      { "name": "React JS" },
+      { "name": "Redux" },
+      { "name": "Bootstrap" },
+      { "name": "Chart JS" },
+      { "name": "Laravel" },
+      { "name": "MySQL" }
+    ],
+    "image": "/aix.png",
+    "liveDemoLink": "https://www.aixinvestment.com/"
+  },
+    {
+    "id": "6",
+    "title": "ISSA Skintherapy",
+    "description": "A delivery website for a restaurant where the customer can order online.",
+    "stack": [
+      { "name": "React JS" },
+      { "name": "Redux" },
+      { "name": "Bootstrap" },
+      { "name": "Chart JS" },
+      { "name": "Laravel" },
+      { "name": "MySQL" }
+    ],
+    "image": "/issa.png",
+    "liveDemoLink": "https://issaskintherapy.com/"
+  },
+    {
+    "id": "7",
+    "title": "We are the future",
+    "description": "A delivery website for a restaurant where the customer can order online.",
+    "stack": [
+      { "name": "React JS" },
+      { "name": "Redux" },
+      { "name": "Bootstrap" },
+      { "name": "Chart JS" },
+      { "name": "Laravel" },
+      { "name": "MySQL" }
+    ],
+    "image": "/future.png",
+    "liveDemoLink": "https://wearethefuture-aix.com/"
+  }
+]
