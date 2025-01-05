@@ -7,7 +7,7 @@ import {motion} from 'framer-motion'
 const services = [
     {
         num:'01',
-        title :'Front-end Web Developer ',
+        title :'Front-end Web Development ',
         description:'I specialize in creating dynamic and responsive user interfaces using React.js. With a strong foundation in HTML, CSS, and JavaScript, with a focus on performance.'
     },
     {
@@ -25,7 +25,7 @@ const services = [
     {
         num:'04',
         title :'Database Management Systems',
-        description:'I work with both relational databases (MySQL) and NoSQL databases (MongoDB), ensuring optimal data storage and retrieval strategies.',
+        description:'I work with relational databases (MySQL), and ensuring optimal data storage and retrieval strategies.',
         href:"",
     },
     
@@ -55,7 +55,7 @@ const Services =() =>{
             }}} className="grid grid-cols-1 md:grid-cols-3 gap-[60px] ">
                {services.map((service,index)=>{
                 return (
-                <div key={index} className="min-h-[45vh] flex-1 flex flex-col justify-center gap-6 group border border-white/20 w-full p-5">
+                <div key={index} className="min-h-[45vh] flex-1 flex flex-col justify-center gap-6 group border border-white/20 w-full rounded-xl p-5">
                 <div className="w-full flex justify-between items-center ">
                     <div className="text-5xl font-extrabold text-outline text-transparent group-hover:text-outline-hover transition-all duration-500">{service.num}</div>
                 

@@ -221,8 +221,8 @@ const Work =() =>{
                             {projects.map((project,index)=>{
                              return (
                              <div key={index} className="min-h-[45vh] flex-1 flex flex-col justify-center gap-6 group border border-white/20 w-full rounded-xl p-5">
-<Link href={`/projects/${project.id}`}>
-                <div className='bg-accent rounded-xl photo-project' style={{display: 'inline-block', padding: '10px' }}>
+                            <Link href={`/projects/${project.id}`}>
+                            <div className='bg-accent rounded-xl photo-project' style={{display: 'inline-block', padding: '10px' }}>
                             <img src={project.image} alt="Project Image" style={{ display: 'block' }} className='rounded-xl project-photo' /> 
                             </div>
                             </Link> 

@@ -75,7 +75,7 @@ export default function ProjectPage({ params }) {
         <div>
           
                 <div className='w-full '>
-                   <div className='relative group flex justify-center items-center bg-pink-50/20 rounded-xl mt-12'>  
+                   <div className='relative group flex justify-center items-center bg-pink-50/20 rounded-xl xl:mt-12'>  
                     <div className='relative w-full h-full rounded-xl'>
                     <img src={project.image} alt="Project Image" style={{ display: 'block' }} className='rounded-xl project-photo' /> 
                     </div>
@@ -85,7 +85,7 @@ export default function ProjectPage({ params }) {
       </div>
     </div>
     <div className='mt-10'>
-        <h1 className='text-[42px] font-bold leading-none text-white graoup-hover:text-accent transition-all duration-500 capitalize'>Project Overview</h1>
+        <h1 className='text-[42px] font-bold leading-none text-white graoup-hover:text-accent transition-all duration-500 capitalize'>Project Overview:</h1>
         <p className='text-white/60 mt-8 text-[18px]'>{project.projectoverview}</p>
         <h1 className='text-[42px] font-bold leading-none text-white graoup-hover:text-accent transition-all duration-500 capitalize mt-12'>Technical Details: </h1>
         <h1 className='text-[24px] px-2 text-accent font-bold leading-none graoup-hover:text-accent transition-all duration-500 capitalize mt-8'> Frontend Technical: </h1>
