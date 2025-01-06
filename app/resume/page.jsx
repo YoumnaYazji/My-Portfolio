@@ -167,7 +167,7 @@ const Resume =() =>{
             <h1 className="text-[66px] text-center xs:text-[58px] xs:px-5">My Resume</h1>
             <div className="px-12 mt-5 xl:w-[90%] mx-auto xs:w-full md:w-full">
                 <Tabs defaultValue='education' className='gap-[60px]'>
-                    <TabsList className=' w-full mx-auto xl:mx-0 gap-[60px] md:flex-col md:items-center md:gap-4 lg:flex-row lg:items-start lg:mx-auto xs:flex-col xs:items-center xl:gap-4 xl:mx-0'>
+                    <TabsList className='w-full mx-auto xl:mx-0 gap-[60px] md:flex-col md:items-center md:gap-4 lg:flex-row lg:items-start lg:mx-auto xs:flex-col xs:items-center xl:gap-4 xl:mx-0'>
                         <TabsTrigger value='education' className="xl:text-[18px] md:text-[24px]">Education</TabsTrigger>
                         <TabsTrigger value='experience'className="xl:text-[18px] md:text-[24px]" >Experience</TabsTrigger>
                         <TabsTrigger value='skills' className="xl:text-[18px] md:text-[24px]">Skills</TabsTrigger>
@@ -265,24 +265,28 @@ const Resume =() =>{
                                 </h3>
                                 <p className='text-white/60 xl:text-[18px] md:text-[22px] xl:px-5'>
                                 {about.description}</p>
-                                <ul className="gap-y-6 xl:mx-0 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 xs:px-5">
-                                {about.info.map((item, index) => (
-                                <li
-                                key={index}
-                                className={`bg-[#232329]  text-[18px] h-[80px] w-full rounded-xl flex items-center justify-center xl:justify-start gap-4 ${
-                                  index >= 0 ? "mt-6" : ""
-                                }
-                              
-                                `}
-                              >
-                                <div className="flex items-center gap-2">
-                                  <span className="text-accent text-[18px]">{item.icon}</span> 
-                                  <span className="text-white/60">{item.fieldName}</span> 
-                                </div>
-                                <span className="text-white">{item.fieldValue}</span>
-                              </li>
-                                ))}
-                                </ul>
+                        
+        <div className='flex flex-col gap-[30px] text-center xl:text-left'>
+          
+          <ul className="gap-y-6 xl:mx-0 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+          {about.info.map((item, index) => (
+          <li
+          key={index}
+          className={`bg-[#232329]  text-[18px] h-[80px] w-full px-8 rounded-xl flex items-center justify-center xl:justify-start gap-4 ${
+          index >= 0 ? "mt-6" : ""
+          }
+  
+          `}
+          >
+          <div className="flex items-center gap-2">
+          <span className="text-accent text-[18px]">{item.icon}</span> 
+          <span className="text-white/60">{item.fieldName}</span> 
+          </div>
+          <span className="text-white">{item.fieldValue}</span>
+          </li>
+          ))}
+          </ul>
+          </div>
                              </div>
                         </TabsContent>
 

@@ -33,7 +33,7 @@ const Contact =() =>{
         <>
         <h1 className="text-[66px] text-center xs:text-[58px] xs:px-5">Let’s Work Togther</h1>
         <h3 className="text-[36px] text-accent text-center xs:px-10">Youmna Yazji</h3>
-        <p className='text-white/60  text-center xl:text-[18px] md:text-[22px] xl:px-5 xs:px-5'>
+        <p className='text-white/60  text-center xl:text-[18px] md:text-[22px] xl:px-5 xs:px-8'>
         Software And Information Systems Engineer | Frontend Developer
         <br/>
         I’m open for exciting freelance opportunities! Feel free to reach out and connect with me through my account.
