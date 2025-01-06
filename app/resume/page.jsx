@@ -269,7 +269,7 @@ const Resume =() =>{
                                 {about.info.map((item, index) => (
                                 <li
                                 key={index}
-                                className={`bg-[#232329]  text-[18px] h-[80px] w-full px-8 rounded-xl flex items-center justify-center xl:justify-start gap-4 ${
+                                className={`bg-[#232329]  text-[18px] h-[80px] w-full rounded-xl flex items-center justify-center xl:justify-start gap-4 ${
                                   index >= 0 ? "mt-6" : ""
                                 }
                               
