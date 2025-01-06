@@ -8,7 +8,7 @@ const projects=[
     {
         id:'1',
         title:'Dolce & Salato',
-        description:'Contributed to the design and development of the Dolce & Salato website. ',
+        description:'Dolce & Salato e-commerce platform uses React and Redux for a responsive and efficient user experience with fast loading times. ',
         icon:<RiGlobalLine/>,
         stack:[
             {
@@ -28,7 +28,7 @@ const projects=[
     {
         id:'2',
         title:'Watch Oasis',
-        description:'A delivery website for a restaurant where the customer can order online.',
+        description:'Watch Oasis uses React JS for a clean, responsive website showcasing watches with key pages for product highlights and customer contact.',
         icon:<RiGlobalLine/>,
         stack:[
             {
@@ -58,7 +58,7 @@ const projects=[
     {
         id:'3',
         title:'L\'Antica Pizzeria',
-        description:'A delivery website for a restaurant where the customer can order online.',
+        description:'The Antica Pizzeria Da Michele website uses React and features an integrated Instagram feed to showcase its latest photos.',
         icon:<RiGlobalLine/>,
         stack:[
             {
@@ -88,7 +88,7 @@ const projects=[
     {
         id:'4',
         title:'The Way',
-        description:'A delivery website for a restaurant where the customer can order online.',
+        description:'The Way, a luxury concierge service, uses React JS to power its platform, enabling a scalable and maintainable frontend.',
         icon:<RiGlobalLine/>,
         stack:[
             {
@@ -118,7 +118,7 @@ const projects=[
     {
         id:'5',
         title:'Aix Investment',
-        description:'A delivery website for a restaurant where the customer can order online.',
+        description:'The AIX Investment website uses WordPress for a customizable design and user experience, allowing them to present their services',
         icon:<RiGlobalLine/>,
         stack:[
             {
@@ -148,7 +148,7 @@ const projects=[
     {
         id:'6',
         title:'ISSA Skintherapy',
-        description:'A delivery website for a restaurant where the customer can order online.',
+        description:'ISSA Skintherapy\'s website uses React and Redux to provide a responsive, user-friendly experience with efficient product browsing and search.',
         icon:<RiGlobalLine/>,
         stack:[
             {
@@ -178,7 +178,7 @@ const projects=[
     {
         id:'7',
         title:'We are the future',
-        description:'A delivery website for a restaurant where the customer can order online.',
+        description:'"We Are The Future" uses WordPress to present its vision on a dynamic homepage, complemented by a projects page showcasing completed work.',
         icon:<RiGlobalLine/>,
         stack:[
             {
@@ -231,22 +231,27 @@ const Work =() =>{
                              {/*<p className='px-2 text-white/60' style={{ display: 'inline-flex', alignItems: 'center' }}>
                             <span style={{ marginRight: '5px',fontSize:'23px' }}>{project.icon}</span> Website
                             </p>*/}
-                            {project.liveDemoLink && (
-                            <a
-                            href={project.liveDemoLink}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="bg-accent w-[30%] text-center p-1 rounded-xl text-black link-project"
-                            >
-                            Live Demo
-                            </a>
-                            
-                            )}
-                            </div>
-                             )
-                            })}
-                         </motion.div>
-                     </section>
+                         <div className="flex items-center justify-between mt-5">
+                         <Link href={`/projects/${project.id}`} className="border border-accent w-[30%] text-center p-1 rounded-xl text-accent link-project">
+                        More Info
+                        </Link>
+
+                        {project.liveDemoLink && (
+                        <a
+                        href={project.liveDemoLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="bg-accent w-[30%] text-center p-1 rounded-xl text-black link-project"
+                        >
+                        Live Demo
+                        </a>
+                        )}
+                        </div>
+                        </div>
+                        )
+                        })}
+                        </motion.div>
+                        </section>
               </>
     )
 }

@@ -3,15 +3,8 @@
 import { notFound } from 'next/navigation';
 import projectsData from '../../projects.json';
 import {motion} from 'framer-motion'
-import { useState } from 'react';
-import {Swiper,SwiperSlide} from 'swiper/react'
 import 'swiper/css';
-import {BsArrowUpRight,BsGithub} from 'react-icons/bs'
-import {Tooltip,TooltipContent,TooltipProvider,TooltipTrigger} from '../../../components/ui/tooltip'
-import Link from 'next/link';
-import Image from 'next/image';
-import WorkSliderBtns from '../../../components/WorkSliderBtns';
-import { Autoplay } from 'swiper/modules';
+
 export default function ProjectPage({ params }) {
   const project = projectsData.find((p) => p.id === params.id);
 
@@ -29,19 +22,18 @@ export default function ProjectPage({ params }) {
         <div className='flex flex-col gap-[30px] h-[50%]'>
             <h2 className='text-[42px] xs:mt-10 xs:px-3 font-bold leading-none text-white graoup-hover:text-accent transition-all duration-500 capitalize'>{project.title}</h2>
             <p className='text-white/60 xs:px-3'>{project.description}</p>
-           
             {project.liveDemoLink && (
-                            <a
-                            href={project.liveDemoLink}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="bg-accent w-[30%] text-center p-1 rounded-xl text-black link-project"
-                            >
-                            Live Demo
-                            </a>
-                            
-                            )}
-              <div className='border border-white/20'>
+            <a
+            href={project.liveDemoLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-accent w-[30%] text-center p-1 rounded-xl text-black link-project"
+            >
+            Live Demo
+            </a>
+
+            )}
+            <div className='border border-white/20'>
               </div>
               <div className='flex items-center gap-4'>
               {/*  <Link href={project.live}>
@@ -73,14 +65,13 @@ export default function ProjectPage({ params }) {
       </div>
       <div className='w-full xl:w-[50%] '>
         <div>
-          
-                <div className='w-full '>
-                   <div className='relative group flex justify-center items-center bg-pink-50/20 rounded-xl xl:mt-12'>  
-                    <div className='relative w-full h-full rounded-xl'>
-                    <img src={project.image} alt="Project Image" style={{ display: 'block' }} className='rounded-xl project-photo' /> 
-                    </div>
-                   </div>
-                </div>
+        <div className='w-full '>
+        <div className='relative group flex justify-center items-center bg-pink-50/20 rounded-xl xl:mt-12'>  
+        <div className='relative w-full h-full rounded-xl'>
+        <img src={project.image} alt="Project Image" style={{ display: 'block' }} className='rounded-xl project-photo' /> 
+        </div>
+        </div>
+        </div>
        </div>
       </div>
     </div>

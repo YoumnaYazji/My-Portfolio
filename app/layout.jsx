@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <title>
-          Samir Khouzam
+          Youmna Yazji
         </title>
       </head>
       <body
