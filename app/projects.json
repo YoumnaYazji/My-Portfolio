@@ -58,7 +58,7 @@
     ],
     "image": "/the_Way.png",
     "liveDemoLink": "https://www.theway.ae/",
-    "projectoverview":"The Way is a high-end concierge organization offering a comprehensive suite of luxury services, catering to discerning clientele. These services encompass a wide range of needs, including seamless hotel and villa reservations, curated entertainment experiences, access to premium luxury car rentals, exclusive restaurant reservations, and a diverse portfolio of additional bespoke services. The platform underpinning this extensive service offering is built using React JS, a powerful JavaScript library for building dynamic and responsive user interfaces. This choice of technology enables the creation of a highly scalable and maintainable frontend architecture, capable of handling a large volume of requests and accommodating future service expansions. The component-based nature of React promotes code reusability and simplifies the development process, ensuring efficient updates and feature additions. This robust technical foundation allows The Way to deliver a seamless and sophisticated user experience across all devices."
+    "projectoverview":"The Way is a high-end concierge organization offering a comprehensive suite of luxury services, catering to discerning clientele. These services encompass a wide range of needs, including seamless hotel and villa reservations, curated entertainment experiences, access to premium luxury car rentals, exclusive restaurant reservations, and a diverse portfolio of additional bespoke services. The platform underpinning this extensive service offering is built using React JS, a powerful JavaScript library for building dynamic and responsive user interfaces. This choice of technology enables the creation of a highly scalable and maintainable frontend architecture, capable of handling a large volume of requests and accommodating future service expansions. The component-based nature of React promotes code reusability and simplifies the development process, ensuring efficient updates and feature additions. This robust technical foundation allows The Way to deliver a seamless user experience across all devices."
   },
     {
     "id": "5",
@@ -84,21 +84,18 @@
     ],
     "image": "/issa.png",
     "liveDemoLink": "https://issaskintherapy.com/",
-    "projectoverview": "ISSA Skintherapy leverages the power of modern web technologies to deliver a superior online shopping experience. Powered by React JS, the platform boasts a dynamic and responsive frontend, adapting seamlessly to various screen sizes and devices. This ensures optimal viewing and interaction for all users. Products are meticulously organized in a clear hierarchy, facilitating easy navigation and product discovery. A robust search functionality further enhances the user experience, allowing for quick and precise product retrieval. Redux provides critical state management, optimizing performance by efficiently handling data flow and maintaining data consistency throughout the application. This sophisticated architecture ensures a scalable and maintainable platform for ISSA Skintherapy's growing product catalog.ISSA Skintherapy leverages the power of modern web technologies to deliver a superior online shopping experience. Powered by React JS, the platform boasts a dynamic and responsive frontend, adapting seamlessly to various screen sizes and devices. This ensures optimal viewing and interaction for all users. Products are meticulously organized in a clear hierarchy, facilitating easy navigation and product discovery. A robust search functionality further enhances the user experience, allowing for quick and precise product retrieval. Redux provides critical state management, optimizing performance by efficiently handling data flow and maintaining data consistency throughout the application. This sophisticated architecture ensures a scalable and maintainable platform for ISSA Skintherapy's growing product catalog."
+    "projectoverview": "ISSA Skintherapy leverages the power of modern web technologies to deliver a superior online shopping experience. Powered by React JS, the platform boasts a dynamic and responsive frontend, adapting seamlessly to various screen sizes and devices. This ensures optimal viewing and interaction for all users. Products are meticulously organized in a clear hierarchy, facilitating easy navigation and product discovery. A robust search functionality further enhances the user experience, allowing for quick and precise product retrieval. Redux provides critical state management, optimizing performance by efficiently handling data flow and maintaining data consistency throughout the application. This architecture ensures a scalable and maintainable platform for ISSA Skintherapy's growing product catalog."
   },
     {
     "id": "7",
     "title": "We are the future",
-    "description": "As a Frontend Developer at The Way, I was instrumental in crafting and implementing intuitive user interfaces that improve the overall user experience. My role involved optimizing front-end performance, enhancing UI/UX design, and integrating APIs to ensure seamless interactions between the application and its users. I worked closely with backend developers to guarantee efficient data flow and adhered to best practices in responsive design to improve accessibility across various devices.",
+    "description":"As a Frontend Developer for 'We are the future' website, I developed and maintained the website using WordPress, focusing on creating user-friendly interfaces and enhancing the overall user experience. My responsibilities included optimizing front-end performance , improving UI/UX design by customizing themes and integrating plugins, and ensuring cross-browser compatibility and responsive design for optimal viewing across various devices.",
     "stack": [
-      { "name": "Html" },
-      { "name": "CSS" },
-      { "name": "Bootstrap" },
-      { "name": "JavaScript" },
-      { "name": "React JS" }
+      { "name": "Wordpress" }
+    
     ],
     "image": "/future.png",
     "liveDemoLink": "https://wearethefuture-aix.com/",
-    "projectoverview":"We Are The Future employs WordPress as its CMS, utilizing its flexible architecture to create a structured online presence. The homepage serves as a central hub, dynamically displaying the latest insights and communicating the organization's vision. A dedicated projects page, showcases completed projects with detailed descriptions, images, and potentially other relevant media."
+    "projectoverview":"'We Are The Future' employs WordPress as its CMS, utilizing its flexible architecture to create a structured online presence. The homepage serves as a central hub, dynamically displaying the latest insights and communicating the organization's vision. A dedicated projects page, showcases completed projects with detailed descriptions, images, and potentially other relevant media."
   }
 ]
