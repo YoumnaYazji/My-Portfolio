@@ -20,7 +20,7 @@ const about={
         },
         {
             fieldName:'Address',
-            fieldValue:'Homs, Syria',
+            fieldValue:'Dubai, UAE',
             icon:<FaMapMarkerAlt/>,
         }
        
