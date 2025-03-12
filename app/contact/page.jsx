@@ -18,12 +18,6 @@ const about={
             fieldValue:'youmna.yazji@gmail.com',
             icon:<FaRegEnvelope/>
         },
-        {
-            fieldName:'Address',
-            fieldValue:'Dubai, UAE',
-            icon:<FaMapMarkerAlt/>,
-        }
-       
 
     ]
 }
@@ -42,21 +36,21 @@ const Contact =() =>{
 
         <div className='flex flex-col gap-[30px] text-center xl:text-left'>
           
-        <ul className="gap-y-6 xl:mx-0 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+        <ul className="gap-y-6 xl:mx-0 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-4">
         {about.info.map((item, index) => (
         <li
         key={index}
-        className={`bg-[#232329]  text-[18px] h-[80px] w-full px-8 rounded-xl flex items-center justify-center xl:justify-start gap-4 ${
+        className={`bg-[#232329]  text-[20px] h-[80px] w-full px-8 rounded-xl flex items-center justify-center xl:justify-center gap-4 ${
         index >= 0 ? "mt-6" : ""
         }
 
         `}
         >
         <div className="flex items-center gap-2">
-        <span className="text-accent text-[18px]">{item.icon}</span> 
+        <span className="text-accent text-[18px] text-center">{item.icon}</span> 
         <span className="text-white/60">{item.fieldName}</span> 
         </div>
-        <span className="text-white">{item.fieldValue}</span>
+        <span className="text-white text-center">{item.fieldValue}</span>
         </li>
         ))}
         </ul>
