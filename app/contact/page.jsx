@@ -32,7 +32,7 @@ const Contact =() =>{
         <br/>
         I’m open for exciting freelance opportunities! Feel free to reach out and connect with me through my account.
         </p>
-        <div className="px-12 mt-5 xl:w-[90%] mx-auto xs:w-full md:x-full">
+        <div className=" mt-5 xl:w-[90%] mx-auto xs:w-full md:x-full flex items-center justify-center">
 
         <div className='flex flex-col gap-[30px] text-center xl:text-left'>
           
@@ -40,7 +40,7 @@ const Contact =() =>{
         {about.info.map((item, index) => (
         <li
         key={index}
-        className={`bg-[#232329]  text-[20px] h-[80px] w-full px-8 rounded-xl flex items-center justify-center xl:justify-center gap-4 ${
+        className={`bg-[#232329]  text-[20px] h-[80px] w-[52vh] rounded-xl flex items-center justify-center xl:justify-center gap-4 ${
         index >= 0 ? "mt-6" : ""
         }
 

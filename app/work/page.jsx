@@ -213,7 +213,7 @@ const Work =() =>{
                             <span style={{ marginRight: '5px',fontSize:'23px' }}>{project.icon}</span> Website
                             </p>*/}
                          <div className="flex items-center justify-between mt-5">
-                         <Link href={`/projects/${project.id}`} className="border border-accent w-[30%] text-center p-1 rounded-xl text-accent link-project">
+                         <Link href={`/projects/${project.id}`} className="border border-accent w-[40%] text-center p-1 rounded-xl text-accent link-project">
                         More Info
                         </Link>
 
@@ -222,7 +222,7 @@ const Work =() =>{
                         href={project.liveDemoLink}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="bg-accent w-[30%] text-center p-1 rounded-xl text-black link-project"
+                        className="bg-accent w-[40%] text-center p-1 rounded-xl text-black link-project"
                         >
                         Live Demo
                         </a>

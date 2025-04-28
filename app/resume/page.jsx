@@ -165,7 +165,7 @@ const Resume =() =>{
         <>
         <h5 className="text-accent text-center xs:px-10">+2 years of experience</h5>
             <h1 className="text-[66px] text-center xs:text-[58px] xs:px-5">My Resume</h1>
-            <div className="px-12 mt-5 xl:w-[90%] mx-auto xs:w-full md:w-full">
+            <div className="px-5 mt-5 xl:w-[90%] mx-auto xs:w-full md:w-full">
                 <Tabs defaultValue='education' className='gap-[60px]'>
                     <TabsList className='w-full mx-auto xl:mx-0 gap-[60px] md:flex-col md:items-center md:gap-4 lg:flex-row lg:items-start lg:mx-auto xs:flex-col xs:items-center xl:gap-4 xl:mx-0'>
                         <TabsTrigger value='education' className="xl:text-[18px] md:text-[24px]">Education</TabsTrigger>
