@@ -7,8 +7,8 @@ import Link from 'next/link';
 const projects=[
     {
         id:'1',
-        title:'Dolce & Salato',
-        description:'Dolce & Salato e-commerce platform uses React and Redux for a responsive and efficient user experience with fast loading times. ',
+        title:'ISSA Skintherapy',
+        description:'ISSA Skintherapy\'s website uses React and Redux to provide a responsive, user-friendly experience with efficient product browsing and search.',
         icon:<RiGlobalLine/>,
         stack:[
             {
@@ -20,9 +20,19 @@ const projects=[
             {
                 name:'Bootstrap',
             },
+            {
+                name:'Chart JS',
+            }, 
+            {
+                name:'Laravel ',
+            },
+            {
+                name:'MySQL',
+            },
+           
         ],
-        image:'/dolce.png',
-        liveDemoLink: 'https://dolcesalato.ae/',
+        image:'/issa.png',
+        liveDemoLink: 'https://issaskintherapy.com/',
 
     },
     {
@@ -145,36 +155,7 @@ const projects=[
         liveDemoLink: 'https://www.aixinvestment.com/',
 
     },
-    {
-        id:'6',
-        title:'ISSA Skintherapy',
-        description:'ISSA Skintherapy\'s website uses React and Redux to provide a responsive, user-friendly experience with efficient product browsing and search.',
-        icon:<RiGlobalLine/>,
-        stack:[
-            {
-                name:'React JS',
-            },
-            {
-                name:'Redux',
-            },
-            {
-                name:'Bootstrap',
-            },
-            {
-                name:'Chart JS',
-            }, 
-            {
-                name:'Laravel ',
-            },
-            {
-                name:'MySQL',
-            },
-           
-        ],
-        image:'/issa.png',
-        liveDemoLink: 'https://issaskintherapy.com/',
-
-    },
+    
     {
         id:'7',
         title:'We are the future',
