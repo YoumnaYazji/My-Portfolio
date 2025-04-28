@@ -40,7 +40,7 @@ const Contact =() =>{
         {about.info.map((item, index) => (
         <li
         key={index}
-        className={`bg-[#232329]  text-[17px] h-[80px] w-full rounded-xl flex items-center justify-center xl:justify-center gap-4 ${
+        className={`bg-[#232329]  text-[16px] h-[80px] w-[45vh] rounded-xl flex items-center justify-center xl:justify-center gap-4 ${
         index >= 0 ? "mt-6" : ""
         }
 
