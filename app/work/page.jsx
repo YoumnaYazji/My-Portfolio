@@ -198,7 +198,7 @@ const Work =() =>{
             <h1 className="text-[66px] text-center xs:text-[58px] xs:px-5">My Projects</h1>
               <section className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-0 xl:px-32 md:px-5 xs:px-8 rounded-xl">
                          <motion.div initial={{opacity:0}} animate={{opacity:1, transition :{delay:2, duration:0.4, ease:"easeIn"
-                         }}} className="grid grid-cols-1 md:grid-cols-3 gap-[60px]  ">
+                         }}} className="grid grid-cols-1 md:grid-cols-1 xl:grid-cols-3 gap-[60px]  p-10">
                             {projects.map((project,index)=>{
                              return (
                              <div key={index} className="min-h-[45vh] flex-1 flex flex-col justify-center gap-6 group border border-white/20 w-full rounded-xl p-5">

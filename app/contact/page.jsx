@@ -36,7 +36,7 @@ const Contact =() =>{
 
         <div className='flex flex-col gap-[30px] text-center xl:text-left'>
           
-        <ul className="gap-y-6 xl:mx-0 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-4">
+        <ul className="gap-y-6 xl:mx-0 grid grid-cols-1 md:grid-cols-1 xl:grid-cols-2 gap-4">
         {about.info.map((item, index) => (
         <li
         key={index}
