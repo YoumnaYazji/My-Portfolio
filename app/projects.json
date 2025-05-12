@@ -1,8 +1,8 @@
 [
   {
     "id": "1",
-    "title": "Dolce & Salato",
-    "description": "As a Frontend Developer for 'Dolce & Salato' website, I played a pivotal role in designing and implementing user-friendly interfaces that ensure seamless user experiences. My responsibilities included optimizing front-end performance, enhancing UI/UX design, and integrating APIs to facilitate smooth interactions between the application and its users. I collaborated closely with backend developers to ensure efficient data flow and implemented best practices in responsive design to enhance accessibility across devices.",
+    "title": "ISSA Skintherapy",
+    "description": "As a Frontend Developer for 'ISSA Skintherapy' website, I played a key role in designing and implementing user-friendly interfaces that greatly enhanced the overall user experience. My responsibilities included optimizing front-end performance, improving UI/UX design, and integrating APIs for seamless application interactions. I collaborated closely with backend developers to ensure efficient data communication and followed best practices in responsive design to enhance accessibility across a range of devices. Additionally, I focused on writing clean, maintainable code and actively participated in code reviews to uphold high development standards.",
     "stack": [
       { "name": "Html" },
       { "name": "CSS" },
@@ -11,9 +11,9 @@
       { "name": "React JS" },
       { "name": "Redux" }
     ],
-    "image": "/dolce.png",
-    "liveDemoLink": "https://dolcesalato.ae/",
-     "projectoverview":"The Dolce & Salato e-commerce platform delivers a seamless and engaging online shopping experience, powered by a modern technology stack. The frontend is built with React JS, a powerful JavaScript library renowned for creating dynamic and responsive user interfaces. This ensures a fluid and intuitive browsing experience across all devices, from desktops to mobile phones. To manage the complexities of e-commerce data flow, the application leverages Redux for state management. This centralized store ensures predictable state transitions and efficient data handling across all components, enabling features like real-time cart updates and dynamic product displays. This robust architecture not only enhances the user experience but also optimizes performance, resulting in faster loading times and smoother interactions."
+    "image": "/issa.png",
+    "liveDemoLink": "https://issaskintherapy.com/",
+     "projectoverview":"ISSA Skintherapy leverages the power of modern web technologies to deliver a superior online shopping experience. Powered by React JS, the platform boasts a dynamic and responsive frontend, adapting seamlessly to various screen sizes and devices. This ensures optimal viewing and interaction for all users. Products are meticulously organized in a clear hierarchy, facilitating easy navigation and product discovery. A robust search functionality further enhances the user experience, allowing for quick and precise product retrieval. Redux provides critical state management, optimizing performance by efficiently handling data flow and maintaining data consistency throughout the application. This architecture ensures a scalable and maintainable platform for ISSA Skintherapy's growing product catalog."
   },
   {
     "id": "2",
