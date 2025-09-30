@@ -1,21 +1,20 @@
 [
   {
     "id": "1",
-    "title": "ISSA Skintherapy",
-    "description": "As a Frontend Developer for 'ISSA Skintherapy' website, I played a key role in designing and implementing user-friendly interfaces that greatly enhanced the overall user experience. My responsibilities included optimizing front-end performance, improving UI/UX design, and integrating APIs for seamless application interactions. I collaborated closely with backend developers to ensure efficient data communication and followed best practices in responsive design to enhance accessibility across a range of devices. Additionally, I focused on writing clean, maintainable code and actively participated in code reviews to uphold high development standards.",
+    "title": "Unity Partners",
+    "description": "As a Frontend Developer for 'Unity Partners' website, I played a key role in designing and implementing user-friendly interfaces that greatly enhanced the overall user experience. My responsibilities included optimizing front-end performance, improving UI/UX design, and integrating APIs for seamless application interactions. I collaborated closely with backend developers to ensure efficient data communication and followed best practices in responsive design to enhance accessibility across a range of devices. Additionally, I focused on writing clean, maintainable code and actively participated in code reviews to uphold high development standards.",
     "stack": [
       { "name": "Html" },
       { "name": "CSS" },
       { "name": "Bootstrap" },
       { "name": "JavaScript" },
-      { "name": "React JS" },
-      { "name": "Redux" }
+      { "name": "React JS" }
     ],
-    "image": "/issa.png",
-    "liveDemoLink": "https://issaskintherapy.com/",
-     "projectoverview":"ISSA Skintherapy leverages the power of modern web technologies to deliver a superior online shopping experience. Powered by React JS, the platform boasts a dynamic and responsive frontend, adapting seamlessly to various screen sizes and devices. This ensures optimal viewing and interaction for all users. Products are meticulously organized in a clear hierarchy, facilitating easy navigation and product discovery. A robust search functionality further enhances the user experience, allowing for quick and precise product retrieval. Redux provides critical state management, optimizing performance by efficiently handling data flow and maintaining data consistency throughout the application. This architecture ensures a scalable and maintainable platform for ISSA Skintherapy's growing product catalog."
+    "image": "/unity.png",
+    "liveDemoLink": "https://unitypartners.ae",
+   "projectoverview": "The Unity Partners was developed using a Modern Web Stack, employing React JS for the dynamic, component-based front-end and a secure API layer for back-end services."
   },
-  {
+   {
     "id": "2",
     "title": "Watch Oasis",
     "description": "In my role as a Frontend Developer for 'Watch Oasis' website, I was instrumental in creating and implementing intuitive user interfaces that promote smooth user experiences. My duties involved optimizing front-end performance, improving UI/UX design, and integrating APIs to ensure seamless interactions between the application and its users. I worked closely with backend developers to guarantee efficient data flow and adhered to best practices in responsive design to improve accessibility across various devices.",
@@ -30,23 +29,9 @@
     "liveDemoLink": "https://www.watchoasis.ae/",
      "projectoverview":"The Watch Oasis is developed using React JS, a popular JavaScript library for building user interfaces. This simple yet elegant website showcases a collection of watches, featuring a clean and responsive design. The platform includes essential pages such as a Home page to highlight featured products, an About page to share the brand's story and values, and a Contact page for customer inquiries. The intuitive navigation and well-organized layout ensure a seamless browsing experience for users."
   },
-  {
-    "id": "3",
-    "title": "L'Antica Pizzeria",
-    "description": "As a Frontend Developer for 'L'Antica Pizzeria' website, I played a key role in designing and developing user-friendly interfaces that enhance the overall user experience. My responsibilities included optimizing front-end performance, refining UI/UX design, and integrating APIs to facilitate smooth interactions between the application and its users. I collaborated closely with backend developers to ensure effective data flow and followed best practices in responsive design to enhance accessibility across different devices.",
-    "stack": [
-      { "name": "Html" },
-      { "name": "CSS" },
-      { "name": "Tailwind" },
-      { "name": "JavaScript" },
-      { "name": "React JS" }
-    ],
-    "image": "/pizzara.png",
-    "liveDemoLink": "https://anticapizzeriadamichele.ae/",
-    "projectoverview":"The Antica Pizzeria Da Michele website aims to provide an engaging online presence for one of the most renowned pizzerias, showcasing its rich history, menu offerings, and dining experience. The website is developed using React JS, a popular JavaScript library for building user interfaces, and serves as a digital platform to attract new customers, retain existing ones, and facilitate online orders.The main key feature of the website is Instagram Integration: Incorporated a live feed from the restaurant's Instagram account, showcasing vibrant photos and updates directly on the website. This feature keeps content fresh and engages visitors with the restaurant's latest dishes and events."
-  },
+
     {
-    "id": "4",
+    "id": "3",
     "title": "The Way",
     "description": "As a Frontend Developer for 'The Way' website, I was instrumental in crafting and implementing intuitive user interfaces that improve the overall user experience. My role involved optimizing front-end performance, enhancing UI/UX design, and integrating APIs to ensure seamless interactions between the application and its users. I worked closely with backend developers to guarantee efficient data flow and adhered to best practices in responsive design to improve accessibility across various devices.",
     "stack": [
@@ -61,20 +46,9 @@
     "projectoverview":"The Way is a high-end concierge organization offering a comprehensive suite of luxury services, catering to discerning clientele. These services encompass a wide range of needs, including seamless hotel and villa reservations, curated entertainment experiences, access to premium luxury car rentals, exclusive restaurant reservations, and a diverse portfolio of additional bespoke services. The platform underpinning this extensive service offering is built using React JS, a powerful JavaScript library for building dynamic and responsive user interfaces. This choice of technology enables the creation of a highly scalable and maintainable frontend architecture, capable of handling a large volume of requests and accommodating future service expansions. The component-based nature of React promotes code reusability and simplifies the development process, ensuring efficient updates and feature additions. This robust technical foundation allows The Way to deliver a seamless user experience across all devices."
   },
     {
-    "id": "5",
+    "id": "4",
     "title": "Aix Investment",
     "description":"As a Frontend Developer for 'Aix Investment' website, I developed and maintained the website using WordPress, focusing on creating user-friendly interfaces and enhancing the overall user experience. My responsibilities included optimizing front-end performance , improving UI/UX design by customizing themes and integrating plugins, and ensuring cross-browser compatibility and responsive design for optimal viewing across various devices.",
-    "stack": [
-      { "name": "WordPress" }
-    ],
-    "image": "/aix.png",
-    "liveDemoLink": "https://www.aixinvestment.com/",
-    "projectoverview":"The AIX Investment website is built with WordPress, a flexible platform that allows for a customized design and user experience. This enables AIX Investment to present its brand and investment services in a professional and engaging manner."
-  },
-    {
-    "id": "6",
-    "title": "ISSA Skintherapy",
-    "description": "As a Frontend Developer for 'ISSA Skintherapy' website, I played a key role in designing and implementing user-friendly interfaces that greatly enhanced the overall user experience. My responsibilities included optimizing front-end performance, improving UI/UX design, and integrating APIs for seamless application interactions. I collaborated closely with backend developers to ensure efficient data communication and followed best practices in responsive design to enhance accessibility across a range of devices. Additionally, I focused on writing clean, maintainable code and actively participated in code reviews to uphold high development standards.",
     "stack": [
       { "name": "Html" },
       { "name": "CSS" },
@@ -82,16 +56,21 @@
       { "name": "JavaScript" },
       { "name": "React JS" }
     ],
-    "image": "/issa.png",
-    "liveDemoLink": "https://issaskintherapy.com/",
-    "projectoverview": "ISSA Skintherapy leverages the power of modern web technologies to deliver a superior online shopping experience. Powered by React JS, the platform boasts a dynamic and responsive frontend, adapting seamlessly to various screen sizes and devices. This ensures optimal viewing and interaction for all users. Products are meticulously organized in a clear hierarchy, facilitating easy navigation and product discovery. A robust search functionality further enhances the user experience, allowing for quick and precise product retrieval. Redux provides critical state management, optimizing performance by efficiently handling data flow and maintaining data consistency throughout the application. This architecture ensures a scalable and maintainable platform for ISSA Skintherapy's growing product catalog."
+    "image": "/aix.png",
+    "liveDemoLink": "https://www.aixinvestment.com/",
+    "projectoverview":"The AIX Investment website is built with React JS, a flexible platform that allows for a customized design and user experience. This enables AIX Investment to present its brand and investment services in a professional and engaging manner."
   },
+  
     {
-    "id": "7",
+    "id": "5",
     "title": "We are the future",
-    "description":"As a Frontend Developer for 'We are the future' website, I developed and maintained the website using WordPress, focusing on creating user-friendly interfaces and enhancing the overall user experience. My responsibilities included optimizing front-end performance , improving UI/UX design by customizing themes and integrating plugins, and ensuring cross-browser compatibility and responsive design for optimal viewing across various devices.",
+    "description":"As a Frontend Developer for 'We are the future' website, I developed and maintained the website using React JS, focusing on creating user-friendly interfaces and enhancing the overall user experience. My responsibilities included optimizing front-end performance , improving UI/UX desgin, and ensuring cross-browser compatibility and responsive design for optimal viewing across various devices.",
     "stack": [
-      { "name": "Wordpress" }
+      { "name": "Html" },
+      { "name": "CSS" },
+      { "name": "Tailwind" },
+      { "name": "JavaScript" },
+      { "name": "React JS" }
     
     ],
     "image": "/future.png",

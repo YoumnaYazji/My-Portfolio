@@ -59,7 +59,17 @@ const experience ={
         {
         company:'Freelancer.',
         position:'Software Engineer & Frontend developer',
-        duration :'2023- Present',
+        duration :'2024- Present',
+    },
+     {
+        company:'Devora.',
+        position:'Frontend developer',
+        duration :'October 2024- April 2025',
+    },
+    {
+        company:'Webber.',
+        position:'Software Engineer & Frontend developer',
+        duration :'May 2025- Present',
     },
 ]
 }

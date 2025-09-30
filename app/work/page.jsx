@@ -7,8 +7,8 @@ import Link from 'next/link';
 const projects=[
     {
         id:'1',
-        title:'ISSA Skintherapy',
-        description:'ISSA Skintherapy\'s website uses React and Redux to provide a responsive, user-friendly experience with efficient product browsing and search.',
+        title:'Unity Partners',
+        description:'Unity Partners\'s website uses React to provide a responsive, user-friendly experience and enabling a scalable and maintainable frontend.',
         icon:<RiGlobalLine/>,
         stack:[
             {
@@ -31,8 +31,8 @@ const projects=[
             },
            
         ],
-        image:'/issa.png',
-        liveDemoLink: 'https://issaskintherapy.com/',
+        image:'/unity.png',
+        liveDemoLink: 'https://www.unitypartners.ae/',
 
     },
     {
@@ -65,38 +65,9 @@ const projects=[
         liveDemoLink: 'https://www.watchoasis.ae/',
 
     },
+    
     {
         id:'3',
-        title:'L\'Antica Pizzeria',
-        description:'The Antica Pizzeria Da Michele website uses React and features an integrated Instagram feed to showcase its latest photos.',
-        icon:<RiGlobalLine/>,
-        stack:[
-            {
-                name:'React JS',
-            },
-            {
-                name:'Redux',
-            },
-            {
-                name:'Bootstrap',
-            },
-            {
-                name:'Chart JS',
-            }, 
-            {
-                name:'Laravel ',
-            },
-            {
-                name:'MySQL',
-            },
-           
-        ],
-        image:'/pizzara.png',
-        liveDemoLink: 'https://anticapizzeriadamichele.ae/',
-
-    },
-    {
-        id:'4',
         title:'The Way',
         description:'The Way, a luxury concierge service, uses React JS to power its platform, enabling a scalable and maintainable frontend.',
         icon:<RiGlobalLine/>,
@@ -126,9 +97,9 @@ const projects=[
 
     },
     {
-        id:'5',
+        id:'4',
         title:'Aix Investment',
-        description:'The AIX Investment website uses WordPress for a customizable design and user experience, allowing them to present their services',
+        description:'The AIX Investment website uses React JS for a customizable design and user experience, allowing them to present their services',
         icon:<RiGlobalLine/>,
         stack:[
             {
@@ -157,9 +128,9 @@ const projects=[
     },
     
     {
-        id:'7',
+        id:'5',
         title:'We are the future',
-        description:'"We Are The Future" uses WordPress to present its vision on a dynamic homepage, complemented by a projects page showcasing completed work.',
+        description:'"We Are The Future" uses React JS to present its vision on a dynamic homepage, complemented by a projects page showcasing completed work.',
         icon:<RiGlobalLine/>,
         stack:[
             {
@@ -194,7 +165,7 @@ const Work =() =>{
 
     return(
         <>
-            <h5 className="text-accent text-center xs:px-10">Visit my projects and keep your feedback</h5>
+            <h5 className="text-accent text-center xs:px-10">Visit some of my projects and keep your feedback</h5>
             <h1 className="text-[66px] text-center xs:text-[58px] xs:px-5">My Projects</h1>
               <section className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-0 xl:px-32 md:px-5 xs:px-8 rounded-xl">
                          <motion.div initial={{opacity:0}} animate={{opacity:1, transition :{delay:2, duration:0.4, ease:"easeIn"
