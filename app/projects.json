@@ -48,7 +48,7 @@
     {
     "id": "4",
     "title": "Aix Investment",
-    "description":"As a Frontend Developer for 'Aix Investment' website, I developed and maintained the website using WordPress, focusing on creating user-friendly interfaces and enhancing the overall user experience. My responsibilities included optimizing front-end performance , improving UI/UX design by customizing themes and integrating plugins, and ensuring cross-browser compatibility and responsive design for optimal viewing across various devices.",
+    "description":"As a Frontend Developer for 'Aix Investment' website, I developed and maintained the website using React JS, focusing on creating user-friendly interfaces and enhancing the overall user experience. My responsibilities included optimizing front-end performance , improving UI/UX and ensuring cross-browser compatibility and responsive design for optimal viewing across various devices.",
     "stack": [
       { "name": "Html" },
       { "name": "CSS" },
@@ -75,6 +75,6 @@
     ],
     "image": "/future.png",
     "liveDemoLink": "https://wearethefuture-aix.com/",
-    "projectoverview":"'We Are The Future' employs WordPress as its CMS, utilizing its flexible architecture to create a structured online presence. The homepage serves as a central hub, dynamically displaying the latest insights and communicating the organization's vision. A dedicated projects page, showcases completed projects with detailed descriptions, images, and potentially other relevant media."
+    "projectoverview":"'We Are The Future' developed using React JS, utilizing its flexible architecture to create a structured online presence. The homepage serves as a central hub, dynamically displaying the latest insights and communicating the organization's vision. A dedicated projects page, showcases completed projects with detailed descriptions, images, and potentially other relevant media."
   }
 ]
