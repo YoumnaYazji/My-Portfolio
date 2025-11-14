@@ -8,8 +8,7 @@ const projects=[
     {
         id:'1',
         title:'Unity Partners',
-        description:'Unity Partners\'s website uses React to provide a responsive, user-friendly experience and enabling a scalable and maintainable frontend.',
-        icon:<RiGlobalLine/>,
+        description:'Unity Partners\'s website uses WordPress to provide a responsive, user-friendly experience through a custom-developed theme, leveraging its flexible structure and vast plugin ecosystem to enable a scalable and maintainable frontend.',
         stack:[
             {
                 name:'React JS',
@@ -38,7 +37,7 @@ const projects=[
     {
         id:'2',
         title:'Watch Oasis',
-        description:'Watch Oasis uses React JS for a clean, responsive website showcasing watches with key pages for product highlights and customer contact.',
+        description:'Watch Oasis\'s website utilizes WordPress with a custom theme to deliver a clean, responsive design for showcasing watches. It features key dedicated pages for detailed product highlights and an integrated customer contact form.',
         icon:<RiGlobalLine/>,
         stack:[
             {
@@ -69,7 +68,7 @@ const projects=[
     {
         id:'3',
         title:'The Way',
-        description:'The Way, a luxury concierge service, uses React JS to power its platform, enabling a scalable and maintainable frontend.',
+        description:'The Way, a luxury concierge service, utilizes a robust WordPress installation to power its platform. By employing a custom-built theme, the setup ensures a highly scalable maintainable frontend.',
         icon:<RiGlobalLine/>,
         stack:[
             {
@@ -99,7 +98,7 @@ const projects=[
     {
         id:'4',
         title:'Aix Investment',
-        description:'The AIX Investment website uses React JS for a customizable design and user experience, allowing them to present their services',
+        description:'The AIX Investment website leverages WordPress to achieve a highly customizable design and user experience. Using a flexible framework and tailored templates, the platform effectively allows the firm to present their services in a professional way.',
         icon:<RiGlobalLine/>,
         stack:[
             {
@@ -130,7 +129,7 @@ const projects=[
     {
         id:'5',
         title:'We are the future',
-        description:'"We Are The Future" uses React JS to present its vision on a dynamic homepage, complemented by a projects page showcasing completed work.',
+        description:'"We Are The Future" uses a custom-built WordPress theme to present its vision effectively on a dynamic, engaging homepage. This is complemented by a dedicated Projects page utilizing custom post types to beautifully showcase all of their completed work.',
         icon:<RiGlobalLine/>,
         stack:[
             {
@@ -157,6 +156,36 @@ const projects=[
         liveDemoLink: 'https://wearethefuture-aix.com/', 
 
     },
+    {
+        id:'6',
+        title:'NHP',
+        description:'The NHP platform is built on a secure, customized WordPress installation to create a fast and intuitive user portal. all while maintaining a modern interface and high security standards.',
+        icon:<RiGlobalLine/>,
+        stack:[
+            {
+                name:'React JS',
+            },
+            {
+                name:'Redux',
+            },
+            {
+                name:'Bootstrap',
+            },
+            {
+                name:'Chart JS',
+            }, 
+            {
+                name:'Laravel ',
+            },
+            {
+                name:'MySQL',
+            },
+           
+        ],
+        image:'/nhp.png',
+        liveDemoLink: 'https://nhp.ae/', 
+
+    },
     
     
     
@@ -173,21 +202,21 @@ const Work =() =>{
                             {projects.map((project,index)=>{
                              return (
                              <div key={index} className="min-h-[45vh] flex-1 flex flex-col justify-center gap-6 group border border-white/20 w-full rounded-xl p-5">
-                            <Link href={`/projects/${project.id}`}>
+                            {/*<Link href={`/projects/${project.id}`}>*/}
                             <div className='bg-accent rounded-xl photo-project' style={{display: 'inline-block', padding: '10px' }}>
                             <img src={project.image} alt="Project Image" style={{ display: 'block' }} className='rounded-xl project-photo' /> 
                             </div>
-                            </Link> 
+                             {/* </Link> */} 
                              <h2 className="text-[26px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 px-2">{project.title}</h2>
                              <p className="text-white/60 px-2">{project.description}</p>
                              {/*<p className='px-2 text-white/60' style={{ display: 'inline-flex', alignItems: 'center' }}>
                             <span style={{ marginRight: '5px',fontSize:'23px' }}>{project.icon}</span> Website
                             </p>*/}
                          <div className="flex items-center justify-between mt-5">
-                         <Link href={`/projects/${project.id}`} className="border border-accent w-[40%] text-center p-1 rounded-xl text-accent link-project">
+                         {/*<Link href={`/projects/${project.id}`} className="border border-accent w-[40%] text-center p-1 rounded-xl text-accent link-project">
                         More Info
                         </Link>
-
+                         */}
                         {project.liveDemoLink && (
                         <a
                         href={project.liveDemoLink}
